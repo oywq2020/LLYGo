@@ -1,0 +1,3164 @@
+fileFormatVersion: 2
+guid: e0956cb5969e13347b3972fe9957f8a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6009916195480788697
+    second: ui_guild_0
+  - first:
+      213: -1958186675732992703
+    second: ui_guild_1
+  - first:
+      213: -4530348368319917159
+    second: ui_guild_2
+  - first:
+      213: -6111053187843665831
+    second: ui_guild_3
+  - first:
+      213: -7456716098315452060
+    second: ui_guild_4
+  - first:
+      213: -5142120164245755489
+    second: ui_guild_5
+  - first:
+      213: -7257523468355228182
+    second: ui_guild_6
+  - first:
+      213: -5762514739989458785
+    second: ui_guild_7
+  - first:
+      213: -3033584676192026694
+    second: ui_guild_8
+  - first:
+      213: -6518596757707109140
+    second: ui_guild_9
+  - first:
+      213: 707698049240649497
+    second: ui_guild_10
+  - first:
+      213: -8709576368055139821
+    second: ui_guild_11
+  - first:
+      213: -4035991436970460801
+    second: ui_guild_12
+  - first:
+      213: -2691090650875440598
+    second: ui_guild_13
+  - first:
+      213: -8570940316893064502
+    second: ui_guild_14
+  - first:
+      213: -7578637129895441183
+    second: ui_guild_15
+  - first:
+      213: -1464485698622934214
+    second: ui_guild_16
+  - first:
+      213: -5542095256392289338
+    second: ui_guild_17
+  - first:
+      213: 6816418633251011534
+    second: ui_guild_18
+  - first:
+      213: -6724582307802536377
+    second: ui_guild_19
+  - first:
+      213: 4265243843409709150
+    second: ui_guild_20
+  - first:
+      213: 485418989507448286
+    second: ui_guild_21
+  - first:
+      213: 1148212022661524852
+    second: ui_guild_22
+  - first:
+      213: -3658783058590490244
+    second: ui_guild_23
+  - first:
+      213: -6296853442927594176
+    second: ui_guild_24
+  - first:
+      213: -4275702671611689898
+    second: ui_guild_25
+  - first:
+      213: 8063989984695207558
+    second: ui_guild_26
+  - first:
+      213: 3883463615409173098
+    second: ui_guild_27
+  - first:
+      213: -7766501026651411398
+    second: ui_guild_28
+  - first:
+      213: -2705391653324202833
+    second: ui_guild_29
+  - first:
+      213: 7847708673745317928
+    second: ui_guild_30
+  - first:
+      213: 8758820544760933030
+    second: ui_guild_31
+  - first:
+      213: 7874676325741647832
+    second: ui_guild_32
+  - first:
+      213: -8286936364249688049
+    second: ui_guild_33
+  - first:
+      213: 3388483863523268519
+    second: ui_guild_34
+  - first:
+      213: 919069268760921523
+    second: ui_guild_35
+  - first:
+      213: -7885713633495711830
+    second: ui_guild_36
+  - first:
+      213: -7498827347638624427
+    second: ui_guild_37
+  - first:
+      213: 7211354024048231624
+    second: ui_guild_38
+  - first:
+      213: 7907299046397451082
+    second: ui_guild_39
+  - first:
+      213: 1149625688779953302
+    second: ui_guild_40
+  - first:
+      213: 4855246972722034785
+    second: ui_guild_41
+  - first:
+      213: -900307536404168828
+    second: ui_guild_42
+  - first:
+      213: -773178483825525393
+    second: ui_guild_43
+  - first:
+      213: -1238968397045976200
+    second: ui_guild_44
+  - first:
+      213: -5209237105860954012
+    second: ui_guild_45
+  - first:
+      213: -1503624512833655935
+    second: ui_guild_46
+  - first:
+      213: 7897017977954858859
+    second: ui_guild_47
+  - first:
+      213: 6002526243107176936
+    second: ui_guild_48
+  - first:
+      213: 988152946050220065
+    second: ui_guild_49
+  - first:
+      213: -6317630410827875924
+    second: ui_guild_50
+  - first:
+      213: -5606631626211975586
+    second: ui_guild_51
+  - first:
+      213: 4319984140786577441
+    second: ui_guild_52
+  - first:
+      213: -2982525635247528779
+    second: ui_guild_53
+  - first:
+      213: -3953904204757776830
+    second: ui_guild_54
+  - first:
+      213: 5176789495115690338
+    second: ui_guild_55
+  - first:
+      213: 5741158530323863899
+    second: ui_guild_56
+  - first:
+      213: 3472700156321003146
+    second: ui_guild_57
+  - first:
+      213: -6857556329084166338
+    second: ui_guild_58
+  - first:
+      213: 6068317770099914020
+    second: ui_guild_59
+  - first:
+      213: 7530012526937784200
+    second: ui_guild_60
+  - first:
+      213: 1510667938526493995
+    second: ui_guild_61
+  - first:
+      213: -2758814352668063973
+    second: ui_guild_62
+  - first:
+      213: -5856252452155078619
+    second: ui_guild_63
+  - first:
+      213: 5366271238371382666
+    second: ui_guild_64
+  - first:
+      213: 198963551460635326
+    second: ui_guild_65
+  - first:
+      213: -3124129492483693847
+    second: ui_guild_66
+  - first:
+      213: 1799602362374931770
+    second: ui_guild_67
+  - first:
+      213: -5170979911884203569
+    second: ui_guild_68
+  - first:
+      213: 4112304202562372541
+    second: ui_guild_69
+  - first:
+      213: -3243982525040273632
+    second: ui_guild_70
+  - first:
+      213: -3384498337626149553
+    second: ui_guild_71
+  - first:
+      213: -2422833358070603066
+    second: ui_guild_72
+  - first:
+      213: 1432775740535267759
+    second: ui_guild_73
+  - first:
+      213: -4569159017987058850
+    second: ui_guild_74
+  - first:
+      213: 5440161226937370048
+    second: ui_guild_75
+  - first:
+      213: 3780462319826584119
+    second: ui_guild_76
+  - first:
+      213: -6595219186040357138
+    second: ui_guild_77
+  - first:
+      213: 620107321535609498
+    second: ui_guild_78
+  - first:
+      213: 5121574247936261215
+    second: ui_guild_79
+  - first:
+      213: -1809583795387634596
+    second: ui_guild_80
+  - first:
+      213: -2124317178067526741
+    second: ui_guild_81
+  - first:
+      213: 2340785013409880443
+    second: ui_guild_82
+  - first:
+      213: 2088608861461166288
+    second: ui_guild_83
+  - first:
+      213: 8742102423233112936
+    second: ui_guild_84
+  - first:
+      213: -3500550428821145041
+    second: ui_guild_85
+  - first:
+      213: 6744061637604947329
+    second: ui_guild_86
+  - first:
+      213: 203862766407889576
+    second: ui_guild_87
+  - first:
+      213: -3691110463277383219
+    second: ui_guild_88
+  - first:
+      213: 8604773579914897047
+    second: ui_guild_89
+  - first:
+      213: 3856417350477286407
+    second: ui_guild_90
+  - first:
+      213: -6391555452499949494
+    second: ui_guild_91
+  - first:
+      213: 5182836823058450474
+    second: ui_guild_92
+  - first:
+      213: 2623911466845222994
+    second: ui_guild_93
+  - first:
+      213: -919386854946410781
+    second: ui_guild_94
+  - first:
+      213: -8915973512847373962
+    second: ui_guild_95
+  - first:
+      213: -6273834311482144216
+    second: ui_guild_96
+  - first:
+      213: -5150475440647093526
+    second: ui_guild_97
+  - first:
+      213: 7077177289426119525
+    second: ui_guild_98
+  - first:
+      213: -1591591556283388718
+    second: ui_guild_99
+  - first:
+      213: 9048629210464186603
+    second: ui_guild_100
+  - first:
+      213: -1629605303876512581
+    second: ui_guild_101
+  - first:
+      213: 4319670274034248835
+    second: ui_guild_102
+  - first:
+      213: 6526565044145689440
+    second: ui_guild_103
+  - first:
+      213: -5972865202424737032
+    second: ui_guild_104
+  - first:
+      213: 7874393355294153969
+    second: ui_guild_105
+  - first:
+      213: -72093309641255430
+    second: ui_guild_106
+  - first:
+      213: -1902518093083617717
+    second: ui_guild_107
+  - first:
+      213: 1121052200557885672
+    second: ui_guild_108
+  - first:
+      213: -8405196240175176736
+    second: ui_guild_109
+  - first:
+      213: -3477489496019458245
+    second: ui_guild_110
+  - first:
+      213: 6431055680290646149
+    second: ui_guild_111
+  - first:
+      213: 2391845277605945410
+    second: ui_guild_112
+  - first:
+      213: -3788379851263097195
+    second: ui_guild_113
+  - first:
+      213: 4451439841271105723
+    second: ui_guild_114
+  - first:
+      213: 7426637692295699702
+    second: ui_guild_115
+  - first:
+      213: 2797344298793644829
+    second: ui_guild_116
+  - first:
+      213: 5222922066499182449
+    second: ui_guild_117
+  - first:
+      213: -314561296922929547
+    second: ui_guild_118
+  - first:
+      213: -5286839703353015957
+    second: ui_guild_119
+  - first:
+      213: -94817189743612754
+    second: ui_guild_120
+  - first:
+      213: 7026921283047034122
+    second: ui_guild_121
+  - first:
+      213: -6862410331518427893
+    second: ui_guild_122
+  - first:
+      213: -1379029926048991216
+    second: ui_guild_123
+  - first:
+      213: -7721860772674787229
+    second: ui_guild_124
+  - first:
+      213: 3416638620784407862
+    second: ui_guild_125
+  - first:
+      213: -3433775806783948318
+    second: ui_guild_126
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ui_guild_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1669
+        width: 631
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dedf7910f2876350800000000000000
+      internalID: 6009916195480788697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_1
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1675
+        width: 357
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d2805e79f13d4e0800000000000000
+      internalID: -1958186675732992703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_2
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1978
+        width: 638
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993558d6928f021c0800000000000000
+      internalID: -4530348368319917159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_3
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1836
+        width: 211
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9505f0fd08d213ba0800000000000000
+      internalID: -6111053187843665831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_4
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 1851
+        width: 162
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46188f8473c648890800000000000000
+      internalID: -7456716098315452060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_5
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1853
+        width: 638
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9922c964f483a8b0800000000000000
+      internalID: -5142120164245755489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_6
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 1514
+        width: 245
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed20a78bd8184b90800000000000000
+      internalID: -7257523468355228182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_7
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1630
+        width: 212
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90d9f5006f6700b0800000000000000
+      internalID: -5762514739989458785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_8
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 1713
+        width: 279
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf71834fca86e5d0800000000000000
+      internalID: -3033584676192026694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_9
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 1713
+        width: 175
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceccade29ca4985a0800000000000000
+      internalID: -6518596757707109140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_10
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1710
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fc93150af32d900800000000000000
+      internalID: 707698049240649497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1523
+        width: 540
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312cfe5407e512780800000000000000
+      internalID: -8709576368055139821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_12
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1226
+        width: 284
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f797bd2fb274df7c0800000000000000
+      internalID: -4035991436970460801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_13
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1544
+        width: 140
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22d130af4357aad0800000000000000
+      internalID: -2691090650875440598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_14
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1560
+        width: 200
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2d38c4137ed0980800000000000000
+      internalID: -8570940316893064502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_15
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 1594
+        width: 276
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec0ff60fa543d690800000000000000
+      internalID: -7578637129895441183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_16
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1594
+        width: 144
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33b0fa240a1dabe0800000000000000
+      internalID: -1464485698622934214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_17
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1584
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c33c534ab58613b0800000000000000
+      internalID: -5542095256392289338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_18
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1514
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbb74bc1a8c89e50800000000000000
+      internalID: 6816418633251011534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_19
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1518
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746ad88f40c7da2a0800000000000000
+      internalID: -6724582307802536377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_20
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1518
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e588bd66da0313b30800000000000000
+      internalID: 4265243843409709150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_21
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1518
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd02d4cffd8cb600800000000000000
+      internalID: 485418989507448286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_22
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 1471
+        width: 214
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47da29940c44fef00800000000000000
+      internalID: 1148212022661524852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_23
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 1477
+        width: 141
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c712f7a7134693dc0800000000000000
+      internalID: -3658783058590490244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_24
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 1514
+        width: 166
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045fa93e7251d98a0800000000000000
+      internalID: -6296853442927594176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1352
+        width: 540
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6548565e217a9a4c0800000000000000
+      internalID: -4275702671611689898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_26
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1293
+        width: 211
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686c01e8a2c09ef60800000000000000
+      internalID: 8063989984695207558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_27
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1293
+        width: 210
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a623e9e2595d4e530800000000000000
+      internalID: 3883463615409173098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_28
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1311
+        width: 195
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c6cb60778d73490800000000000000
+      internalID: -7766501026651411398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_29
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 1353
+        width: 147
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facdd4500a4847ad0800000000000000
+      internalID: -2705391653324202833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_30
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1345
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8207757b579a8ec60800000000000000
+      internalID: 7847708673745317928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_31
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 1409
+        width: 201
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa6ed511e49d8970800000000000000
+      internalID: 8758820544760933030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_32
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 1374
+        width: 117
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7520d7568784d60800000000000000
+      internalID: 7874676325741647832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_33
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1080
+        width: 240
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0851a46843eefc80800000000000000
+      internalID: -8286936364249688049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_34
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1065
+        width: 194
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a79274fe10560f20800000000000000
+      internalID: 3388483863523268519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_35
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1281
+        width: 102
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5097861a031cc00800000000000000
+      internalID: 919069268760921523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_36
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 1235
+        width: 140
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf780b0b31509290800000000000000
+      internalID: -7885713633495711830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_37
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 1347
+        width: 201
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fd3000240dee790800000000000000
+      internalID: -7498827347638624427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_38
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1236
+        width: 70
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c48af80740e31460800000000000000
+      internalID: 7211354024048231624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_39
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1251
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b1e49869e5cbd60800000000000000
+      internalID: 7907299046397451082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_40
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1252
+        width: 445
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6949464197a44ff00800000000000000
+      internalID: 1149625688779953302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_41
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1228
+        width: 140
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16833e1c56d416340800000000000000
+      internalID: 4855246972722034785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_42
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 1219
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48fb500d0177183f0800000000000000
+      internalID: -900307536404168828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_43
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1248
+        width: 118
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dba93f34e1545f0800000000000000
+      internalID: -773178483825525393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_44
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 1248
+        width: 118
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873b326aecc4ecee0800000000000000
+      internalID: -1238968397045976200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_45
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1231
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468bf52b37215b7b0800000000000000
+      internalID: -5209237105860954012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_46
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1107
+        width: 453
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18beafcd87d022be0800000000000000
+      internalID: -1503624512833655935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_47
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1032
+        width: 191
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b677fd0c208d79d60800000000000000
+      internalID: 7897017977954858859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_48
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1129
+        width: 226
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e10d5bb0d14d4350800000000000000
+      internalID: 6002526243107176936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_49
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 1156
+        width: 200
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12044157edf96bd00800000000000000
+      internalID: 988152946050220065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_50
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1122
+        width: 117
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca936641d944358a0800000000000000
+      internalID: -6317630410827875924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_51
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1122
+        width: 117
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e1a2dbd3e3132b0800000000000000
+      internalID: -5606631626211975586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_52
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 1133
+        width: 124
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120b7e210baa3fb30800000000000000
+      internalID: 4319984140786577441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_53
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1133
+        width: 124
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b42391acb0fb96d0800000000000000
+      internalID: -2982525635247528779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_54
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1042
+        width: 382
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2464d7f0319e029c0800000000000000
+      internalID: -3953904204757776830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_55
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1088
+        width: 444
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26138553e96a7d740800000000000000
+      internalID: 5176789495115690338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_56
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1025
+        width: 117
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59582fe341bcaf40800000000000000
+      internalID: 5741158530323863899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_57
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1065
+        width: 201
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86f4fc9462813030800000000000000
+      internalID: 3472700156321003146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_58
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1065
+        width: 158
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fd4b10ad015d0a0800000000000000
+      internalID: -6857556329084166338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_59
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1036
+        width: 222
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425fefe4cdef63450800000000000000
+      internalID: 6068317770099914020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_60
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1043
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f3e5e5f7aff7860800000000000000
+      internalID: 7530012526937784200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_61
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1039
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d71797c78f6f410800000000000000
+      internalID: 1510667938526493995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_62
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1045
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1788fb86f8b6b9d0800000000000000
+      internalID: -2758814352668063973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_63
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1045
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528494a2c696abea0800000000000000
+      internalID: -5856252452155078619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_64
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1045
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8595837243d87a40800000000000000
+      internalID: 5366271238371382666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_65
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1044
+        width: 356
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2bf00cb4cd2c200800000000000000
+      internalID: 198963551460635326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_66
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1030
+        width: 324
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2203867ccd4a4d0800000000000000
+      internalID: -3124129492483693847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_67
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 979
+        width: 139
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35cf4a50d879f810800000000000000
+      internalID: 1799602362374931770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_68
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 666
+        width: 19
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9167bca2dfc38b0800000000000000
+      internalID: -5170979911884203569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_69
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 666
+        width: 19
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3831262e6d11930800000000000000
+      internalID: 4112304202562372541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_70
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 974
+        width: 117
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0275661b41f0bf2d0800000000000000
+      internalID: -3243982525040273632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_71
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 979
+        width: 104
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4da4ea91b8d701d0800000000000000
+      internalID: -3384498337626149553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_72
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 991
+        width: 123
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c22c36c5ed506ed0800000000000000
+      internalID: -2422833358070603066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_73
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1008
+        width: 150
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1e661e1fd32e310800000000000000
+      internalID: 1432775740535267759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_74
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 922
+        width: 139
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53db92e4161790c0800000000000000
+      internalID: -4569159017987058850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_75
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 940
+        width: 123
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5847c00d55f7b40800000000000000
+      internalID: 5440161226937370048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_76
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 972
+        width: 116
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732430c3376e67430800000000000000
+      internalID: 3780462319826584119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_77
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 962
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee3930e7131974a0800000000000000
+      internalID: -6595219186040357138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_78
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 929
+        width: 1062
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9abfbec2501b9800800000000000000
+      internalID: 620107321535609498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_79
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 942
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c770ba4ac731740800000000000000
+      internalID: 5121574247936261215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_80
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 943
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ced9c202113e6e0800000000000000
+      internalID: -1809583795387634596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_81
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 941
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab560b18c8e482e0800000000000000
+      internalID: -2124317178067526741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_82
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 942
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b799ad351932c7020800000000000000
+      internalID: 2340785013409880443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_83
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 865
+        width: 139
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8302e81ba3cfc10800000000000000
+      internalID: 2088608861461166288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_84
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 866
+        width: 104
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b24e616df225970800000000000000
+      internalID: 8742102423233112936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_85
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 866
+        width: 104
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a36c38eeb8b6fc0800000000000000
+      internalID: -3500550428821145041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_86
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 893
+        width: 148
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18538cce358b79d50800000000000000
+      internalID: 6744061637604947329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_87
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 894
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2bbae1b1444d200800000000000000
+      internalID: 203862766407889576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_88
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 894
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1cf99079a86ccc0800000000000000
+      internalID: -3691110463277383219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_89
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 884
+        width: 430
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7966e7b1bfb4a6770800000000000000
+      internalID: 8604773579914897047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_90
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 875
+        width: 226
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c0ad8e52fb48530800000000000000
+      internalID: 3856417350477286407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_91
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 803
+        width: 120
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48878b0e22ac47a0800000000000000
+      internalID: -6391555452499949494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_92
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 845
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28863771a22de740800000000000000
+      internalID: 5182836823058450474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_93
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 803
+        width: 104
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2583267b3910a6420800000000000000
+      internalID: 2623911466845222994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_94
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 790
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee61cbc68ead33f0800000000000000
+      internalID: -919386854946410781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_95
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 845
+        width: 218
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679c0f33459144480800000000000000
+      internalID: -8915973512847373962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_96
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 474
+        width: 10
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a03741fecdee8a0800000000000000
+      internalID: -6273834311482144216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_97
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 781
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae24bd700e5d588b0800000000000000
+      internalID: -5150475440647093526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_98
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 795
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ba4bc8f3f273260800000000000000
+      internalID: 7077177289426119525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_99
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 807
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dca73489e789e9e0800000000000000
+      internalID: -1591591556283388718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 741
+        width: 117
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0f0f14350339d70800000000000000
+      internalID: 9048629210464186603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_101
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 740
+        width: 104
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb419523c9a7269e0800000000000000
+      internalID: -1629605303876512581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_102
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 745
+        width: 70
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c20a64a3d82fb30800000000000000
+      internalID: 4319670274034248835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_103
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 732
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06319c31454039a50800000000000000
+      internalID: 6526565044145689440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_104
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 753
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f29e267ebe1c1da0800000000000000
+      internalID: -5972865202424737032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_105
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 678
+        width: 104
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc110c4907774d60800000000000000
+      internalID: 7874393355294153969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_106
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 715
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af59620548fdffef0800000000000000
+      internalID: -72093309641255430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_107
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 703
+        width: 149
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b465ff2dfd5e895e0800000000000000
+      internalID: -1902518093083617717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_108
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 709
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e83cec6907ce8f00800000000000000
+      internalID: 1121052200557885672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_109
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 690
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3e8ec5d8eba5b80800000000000000
+      internalID: -8405196240175176736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_110
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 685
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37ab975ab97dbfc0800000000000000
+      internalID: -3477489496019458245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_111
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 669
+        width: 150
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5886b7a6113bf3950800000000000000
+      internalID: 6431055680290646149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_112
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 615
+        width: 104
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240e5618b9a813120800000000000000
+      internalID: 2391845277605945410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_113
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 635
+        width: 166
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5964733d898fc6bc0800000000000000
+      internalID: -3788379851263097195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_114
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 623
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb84cfd63f0b6cd30800000000000000
+      internalID: 4451439841271105723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_115
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 454
+        width: 82
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcdfc412a7b01760800000000000000
+      internalID: 7426637692295699702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_116
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 516
+        width: 149
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d133f0c91d922d620800000000000000
+      internalID: 2797344298793644829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_117
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 552
+        width: 104
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f9b3f72fb8b7840800000000000000
+      internalID: 5222922066499182449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_118
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 467
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57692d4ca2472abf0800000000000000
+      internalID: -314561296922929547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_119
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 573
+        width: 82
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b614639fc4f51a6b0800000000000000
+      internalID: -5286839703353015957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_120
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 461
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac2bbea4442faef0800000000000000
+      internalID: -94817189743612754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_121
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 503
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d86ac3da3a48160800000000000000
+      internalID: 7026921283047034122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_122
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 458
+        width: 60
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d9fde7922d3c0a0800000000000000
+      internalID: -6862410331518427893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_123
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 391
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0187733b693bcdce0800000000000000
+      internalID: -1379029926048991216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_124
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 409
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36822b71a8076d490800000000000000
+      internalID: -7721860772674787229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_125
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 346
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6353cb539b65a6f20800000000000000
+      internalID: 3416638620784407862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_guild_126
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 367
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9ff4eb817c850d0800000000000000
+      internalID: -3433775806783948318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7a95bc88fe2927c4f8da77d782363fa1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

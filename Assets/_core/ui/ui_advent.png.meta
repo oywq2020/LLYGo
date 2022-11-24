@@ -1,0 +1,2108 @@
+fileFormatVersion: 2
+guid: 3c73a139fb4ceac429cb9de4e907f785
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6414021653184568517
+    second: ui_advent_0
+  - first:
+      213: -815628912134015401
+    second: ui_advent_1
+  - first:
+      213: 3027490498875347659
+    second: ui_advent_2
+  - first:
+      213: -4198389590619302986
+    second: ui_advent_3
+  - first:
+      213: -3656493711682739493
+    second: ui_advent_4
+  - first:
+      213: -3171256848745522781
+    second: ui_advent_5
+  - first:
+      213: -4703524182289102810
+    second: ui_advent_6
+  - first:
+      213: 1512918419938247154
+    second: ui_advent_7
+  - first:
+      213: 8100033606893992685
+    second: ui_advent_8
+  - first:
+      213: -6025954050372331334
+    second: ui_advent_9
+  - first:
+      213: -5741422110654185949
+    second: ui_advent_10
+  - first:
+      213: 8592805901153859333
+    second: ui_advent_11
+  - first:
+      213: 3970429778936430104
+    second: ui_advent_12
+  - first:
+      213: -8144276655876728351
+    second: ui_advent_13
+  - first:
+      213: 1991454383683183737
+    second: ui_advent_14
+  - first:
+      213: -8437229788899387562
+    second: ui_advent_15
+  - first:
+      213: 2778903748756333651
+    second: ui_advent_16
+  - first:
+      213: -2328838686604844069
+    second: ui_advent_17
+  - first:
+      213: -7493794194109707527
+    second: ui_advent_18
+  - first:
+      213: 2852152271004067632
+    second: ui_advent_19
+  - first:
+      213: 1182506398300170660
+    second: ui_advent_20
+  - first:
+      213: -6269878361440063722
+    second: ui_advent_21
+  - first:
+      213: -5485794352124391473
+    second: ui_advent_22
+  - first:
+      213: -2239523049295316278
+    second: ui_advent_23
+  - first:
+      213: 9006548196956561257
+    second: ui_advent_24
+  - first:
+      213: -7933831135587910617
+    second: ui_advent_25
+  - first:
+      213: -8948739135285292555
+    second: ui_advent_26
+  - first:
+      213: 3574896657973868808
+    second: ui_advent_27
+  - first:
+      213: -5287550069453925939
+    second: ui_advent_28
+  - first:
+      213: -5539225428185026836
+    second: ui_advent_29
+  - first:
+      213: -6096653314102737180
+    second: ui_advent_30
+  - first:
+      213: -9145063454502432278
+    second: ui_advent_31
+  - first:
+      213: -1804902659112786673
+    second: ui_advent_32
+  - first:
+      213: -6972599956246137194
+    second: ui_advent_33
+  - first:
+      213: 3193662394348878970
+    second: ui_advent_34
+  - first:
+      213: -8003444864800518497
+    second: ui_advent_35
+  - first:
+      213: 1384699489414814802
+    second: ui_advent_36
+  - first:
+      213: 6336664027910405863
+    second: ui_advent_37
+  - first:
+      213: -3401994383632064170
+    second: ui_advent_38
+  - first:
+      213: 6438753681220372205
+    second: ui_advent_39
+  - first:
+      213: 5579642921165306157
+    second: ui_advent_40
+  - first:
+      213: 9057860979622548094
+    second: ui_advent_41
+  - first:
+      213: 8919574571513578911
+    second: ui_advent_42
+  - first:
+      213: -8027009981616856489
+    second: ui_advent_43
+  - first:
+      213: -2144136592654817044
+    second: ui_advent_44
+  - first:
+      213: -2290870356158004725
+    second: ui_advent_45
+  - first:
+      213: -6434339709394794424
+    second: ui_advent_46
+  - first:
+      213: -8932133111461563471
+    second: ui_advent_47
+  - first:
+      213: -4978760116270133206
+    second: ui_advent_48
+  - first:
+      213: 1842615156333478785
+    second: ui_advent_49
+  - first:
+      213: -6132871287422745869
+    second: ui_advent_50
+  - first:
+      213: 7892386658875519355
+    second: ui_advent_51
+  - first:
+      213: -4850116330271208976
+    second: ui_advent_52
+  - first:
+      213: 7191223901935018997
+    second: ui_advent_53
+  - first:
+      213: 2745590283789215538
+    second: ui_advent_54
+  - first:
+      213: -759995257363468433
+    second: ui_advent_55
+  - first:
+      213: -3681792738759603657
+    second: ui_advent_56
+  - first:
+      213: 3114005813536718893
+    second: ui_advent_57
+  - first:
+      213: 4439427947924596823
+    second: ui_advent_58
+  - first:
+      213: 8467130211218008438
+    second: ui_advent_59
+  - first:
+      213: 1094952609241078547
+    second: ui_advent_60
+  - first:
+      213: 3414397846743064124
+    second: ui_advent_61
+  - first:
+      213: 7514642853712069997
+    second: ui_advent_62
+  - first:
+      213: 7609482115188288972
+    second: ui_advent_63
+  - first:
+      213: -2761265684534887872
+    second: ui_advent_64
+  - first:
+      213: 2019762534893265405
+    second: ui_advent_65
+  - first:
+      213: 4875059393998255725
+    second: ui_advent_66
+  - first:
+      213: 2595378380587583860
+    second: ui_advent_67
+  - first:
+      213: -7400380362737574635
+    second: ui_advent_68
+  - first:
+      213: 3790785765721903170
+    second: ui_advent_69
+  - first:
+      213: 4044644096581438623
+    second: ui_advent_70
+  - first:
+      213: -2691759695371352452
+    second: ui_advent_71
+  - first:
+      213: -8676929804907729231
+    second: ui_advent_72
+  - first:
+      213: -2048002466096187729
+    second: ui_advent_73
+  - first:
+      213: -1181433086004359693
+    second: ui_advent_74
+  - first:
+      213: 7491119183498592398
+    second: ui_advent_75
+  - first:
+      213: 8696192575161742323
+    second: ui_advent_76
+  - first:
+      213: 8975535378165280683
+    second: ui_advent_77
+  - first:
+      213: 4353885837223412781
+    second: ui_advent_78
+  - first:
+      213: -8100133076728558314
+    second: ui_advent_79
+  - first:
+      213: -7877214336144706624
+    second: ui_advent_80
+  - first:
+      213: 2516627368225058994
+    second: ui_advent_81
+  - first:
+      213: 8120284161337197380
+    second: ui_advent_82
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ui_advent_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 622
+        width: 418
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3325441a41dcf6a0800000000000000
+      internalID: -6414021653184568517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_1
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 622
+        width: 418
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756b6b763dd4ea4f0800000000000000
+      internalID: -815628912134015401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_2
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 990
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2d552819ec30a20800000000000000
+      internalID: 3027490498875347659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_3
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 976
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3507e49e25cb5c0800000000000000
+      internalID: -4198389590619302986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_4
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 836
+        width: 330
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd263b79756814dc0800000000000000
+      internalID: -3656493711682739493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_5
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 915
+        width: 457
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a99ff6b2be6df3d0800000000000000
+      internalID: -3171256848745522781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_6
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 630
+        width: 50
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628c2323da9b9beb0800000000000000
+      internalID: -4703524182289102810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_7
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 643
+        width: 34
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f180928947fef410800000000000000
+      internalID: 1512918419938247154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_8
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 630
+        width: 17
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea74af46a9196070800000000000000
+      internalID: 8100033606893992685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_9
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 993
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab81bb2d7b28f5ca0800000000000000
+      internalID: -6025954050372331334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_10
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 820
+        width: 104
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e32ec720f5250b0800000000000000
+      internalID: -5741422110654185949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_11
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 961
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507f722c077cf3770800000000000000
+      internalID: 8592805901153859333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_12
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 896
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e732309dcc91730800000000000000
+      internalID: 3970429778936430104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_13
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 919
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e916fd1887b9fe80800000000000000
+      internalID: -8144276655876728351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_14
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 854
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974a4d5f53113ab10800000000000000
+      internalID: 1991454383683183737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_15
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 868
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657de489530f8ea80800000000000000
+      internalID: -8437229788899387562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_16
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 853
+        width: 382
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3546f997c36a09620800000000000000
+      internalID: 2778903748756333651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_17
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 843
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd32bb1ad8d4eafd0800000000000000
+      internalID: -2328838686604844069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_18
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 826
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fac43062e1b00890800000000000000
+      internalID: -7493794194109707527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_19
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 807
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037658e0161e49720800000000000000
+      internalID: 2852152271004067632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_20
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 762
+        width: 88
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9ee47dd4b196010800000000000000
+      internalID: 1182506398300170660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_21
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 760
+        width: 86
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fe47979daecf8a0800000000000000
+      internalID: -6269878361440063722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_22
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 804
+        width: 200
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf08ca0a1b8ed3b0800000000000000
+      internalID: -5485794352124391473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_23
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 804
+        width: 94
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acaf374f6ad9be0e0800000000000000
+      internalID: -2239523049295316278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_24
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 658
+        width: 174
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fd70ccddfadfc70800000000000000
+      internalID: 9006548196956561257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_25
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 793
+        width: 67
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c395f0e9e55e190800000000000000
+      internalID: -7933831135587910617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_26
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 755
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f11fad3b21bfc380800000000000000
+      internalID: -8948739135285292555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_27
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 648
+        width: 159
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809734fd1959c9130800000000000000
+      internalID: 3574896657973868808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_28
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 775
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc15b1af939de96b0800000000000000
+      internalID: -5287550069453925939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_29
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 771
+        width: 200
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee683632d7b023b0800000000000000
+      internalID: -5539225428185026836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_30
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 771
+        width: 94
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6c23ebc16546ba0800000000000000
+      internalID: -6096653314102737180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_31
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 725
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1d9f1ad35361180800000000000000
+      internalID: -9145063454502432278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_32
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 738
+        width: 200
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05ac652892b3f6e0800000000000000
+      internalID: -1804902659112786673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_33
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 738
+        width: 94
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6967b0f38495c3f90800000000000000
+      internalID: -6972599956246137194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_34
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 635
+        width: 53
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c30b3e60b225c20800000000000000
+      internalID: 3193662394348878970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_35
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 638
+        width: 52
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e042eac4d0ee090800000000000000
+      internalID: -8003444864800518497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_36
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 705
+        width: 200
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c1c3369d0773310800000000000000
+      internalID: 1384699489414814802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_37
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 705
+        width: 94
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee789c3c5a50f750800000000000000
+      internalID: 6336664027910405863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_38
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 672
+        width: 200
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651acb3f120b9c0d0800000000000000
+      internalID: -3401994383632064170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_39
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 672
+        width: 94
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6016deb5c0b5950800000000000000
+      internalID: 6438753681220372205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_40
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 594
+        width: 99
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29b491bcafde6d40800000000000000
+      internalID: 5579642921165306157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_41
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 611
+        width: 259
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e721643029cf3bd70800000000000000
+      internalID: 9057860979622548094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_42
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 290
+        width: 34
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f958caa90d1b8cb70800000000000000
+      internalID: 8919574571513578911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_43
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 622
+        width: 241
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752663d53f45a9090800000000000000
+      internalID: -8027009981616856489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_44
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 534
+        width: 50
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8a4ec012f7e32e0800000000000000
+      internalID: -2144136592654817044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_45
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 534
+        width: 17
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02cab27c813530e0800000000000000
+      internalID: -2290870356158004725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_46
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 249
+        width: 377
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8484559ff12a4b6a0800000000000000
+      internalID: -6434339709394794424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_47
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 350
+        width: 480
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b334d47240ba0480800000000000000
+      internalID: -8932133111461563471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_48
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 132
+        width: 226
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2016d78d04e7eab0800000000000000
+      internalID: -4978760116270133206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_49
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 485
+        width: 457
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183020bd8b8429910800000000000000
+      internalID: 1842615156333478785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_50
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 199
+        width: 17
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f289f3be0aa3eaa0800000000000000
+      internalID: -6132871287422745869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_51
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 562
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71be40c9d3678d60800000000000000
+      internalID: 7892386658875519355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_52
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 572
+        width: 76
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f90dd605ece0bcb0800000000000000
+      internalID: -4850116330271208976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_53
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 530
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3a22fb90c5cc360800000000000000
+      internalID: 7191223901935018997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_54
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 374
+        width: 298
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237250cf0db4a1620800000000000000
+      internalID: 2745590283789215538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_55
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 103
+        width: 50
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f6edd0754f375f0800000000000000
+      internalID: -759995257363468433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_56
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 402
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a0f95d205a7ecc0800000000000000
+      internalID: -3681792738759603657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_57
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 250
+        width: 323
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d208b58e9cb273b20800000000000000
+      internalID: 3114005813536718893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_58
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 235
+        width: 114
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758acf192340c9d30800000000000000
+      internalID: 4439427947924596823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_59
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 318
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679a0aaf01a418570800000000000000
+      internalID: 8467130211218008438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_60
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 196
+        width: 182
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b93b7c89d023f00800000000000000
+      internalID: 1094952609241078547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_61
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 291
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e9af850c0626f20800000000000000
+      internalID: 3414397846743064124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_62
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 342
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d658f657cdf594860800000000000000
+      internalID: 7514642853712069997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_63
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 286
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd6c70caaf4a9960800000000000000
+      internalID: 7609482115188288972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_64
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 310
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a72de5d730ea9d0800000000000000
+      internalID: -2761265684534887872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_65
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 254
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1a4f60353a70c10800000000000000
+      internalID: 2019762534893265405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_66
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 233
+        width: 82
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66723e80b0b7a340800000000000000
+      internalID: 4875059393998255725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_67
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 31
+        width: 210
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479c6a0e2e2a40420800000000000000
+      internalID: 2595378380587583860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_68
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 31
+        width: 210
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d104cd4419c4990800000000000000
+      internalID: -7400380362737574635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_69
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 24
+        width: 267
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2401679c1939b9430800000000000000
+      internalID: 3790785765721903170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_70
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 178
+        width: 139
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c0e9b5066712830800000000000000
+      internalID: 4044644096581438623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_71
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 134
+        width: 194
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c764da091d2f4aad0800000000000000
+      internalID: -2691759695371352452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_72
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 103
+        width: 17
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bea975905a559780800000000000000
+      internalID: -8676929804907729231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_73
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 122
+        width: 96
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6763d9b980493e0800000000000000
+      internalID: -2048002466096187729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_74
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 145
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd01d62ed4ba9fe0800000000000000
+      internalID: -1181433086004359693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_75
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 115
+        width: 648
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e804c8e253dc5f760800000000000000
+      internalID: 7491119183498592398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_76
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 108
+        width: 436
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3b7ec92151fa870800000000000000
+      internalID: 8696192575161742323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_77
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 74
+        width: 648
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf2e7c3fd18f8c70800000000000000
+      internalID: 8975535378165280683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_78
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 7
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d244e40e91c1c6c30800000000000000
+      internalID: 4353885837223412781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_79
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 8
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dc33012eb869f80800000000000000
+      internalID: -8100133076728558314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_80
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 8
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3fa7aeb438ea290800000000000000
+      internalID: -7877214336144706624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_81
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 13
+        width: 260
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0b41bf14bdce220800000000000000
+      internalID: 2516627368225058994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_advent_82
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 13
+        width: 260
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4430cbfeb6b01b070800000000000000
+      internalID: 8120284161337197380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fef998fe9c4e0cb4994faf393a2cff93
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

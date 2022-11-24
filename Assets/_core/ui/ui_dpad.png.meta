@@ -1,0 +1,1268 @@
+fileFormatVersion: 2
+guid: ed3a79f700f495f4ebf721f1d93c77a5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2952727820475932677
+    second: ui_dpad_0
+  - first:
+      213: 385475559789262504
+    second: ui_dpad_1
+  - first:
+      213: 3706433236925172717
+    second: ui_dpad_2
+  - first:
+      213: 5125326569354641175
+    second: ui_dpad_3
+  - first:
+      213: -1305922401408591484
+    second: ui_dpad_4
+  - first:
+      213: 5165296552542474950
+    second: ui_dpad_5
+  - first:
+      213: -8394517404512876890
+    second: ui_dpad_6
+  - first:
+      213: -5688410301556054863
+    second: ui_dpad_7
+  - first:
+      213: -2062135878465054469
+    second: ui_dpad_8
+  - first:
+      213: 568044791374593678
+    second: ui_dpad_9
+  - first:
+      213: -5656131848316561899
+    second: ui_dpad_10
+  - first:
+      213: 2900462986322479861
+    second: ui_dpad_11
+  - first:
+      213: -594796026535433978
+    second: ui_dpad_12
+  - first:
+      213: -4421269806370340250
+    second: ui_dpad_13
+  - first:
+      213: -4991253440945197755
+    second: ui_dpad_14
+  - first:
+      213: 545324279653582828
+    second: ui_dpad_15
+  - first:
+      213: -8690065138892658863
+    second: ui_dpad_16
+  - first:
+      213: 4852812727338606990
+    second: ui_dpad_17
+  - first:
+      213: 105426105273532754
+    second: ui_dpad_18
+  - first:
+      213: -6897384029875092989
+    second: ui_dpad_19
+  - first:
+      213: 5612953385140656946
+    second: ui_dpad_20
+  - first:
+      213: -1778280730875143477
+    second: ui_dpad_21
+  - first:
+      213: -9192640903258927660
+    second: ui_dpad_22
+  - first:
+      213: 1678368012047626286
+    second: ui_dpad_23
+  - first:
+      213: 5003131425371963829
+    second: ui_dpad_24
+  - first:
+      213: -5159639664010042501
+    second: ui_dpad_25
+  - first:
+      213: -2004308074376041136
+    second: ui_dpad_26
+  - first:
+      213: 3385349227204257462
+    second: ui_dpad_27
+  - first:
+      213: 3837981224066678291
+    second: ui_dpad_28
+  - first:
+      213: 8792139032584669126
+    second: ui_dpad_29
+  - first:
+      213: -2037520743927063972
+    second: ui_dpad_30
+  - first:
+      213: -4483594932979979556
+    second: ui_dpad_31
+  - first:
+      213: 6167245846498863593
+    second: ui_dpad_32
+  - first:
+      213: -3672594145242350969
+    second: ui_dpad_33
+  - first:
+      213: 2711268114593034632
+    second: ui_dpad_34
+  - first:
+      213: 8238078830237598014
+    second: ui_dpad_35
+  - first:
+      213: 5843382594755294186
+    second: ui_dpad_36
+  - first:
+      213: -3994802002628821483
+    second: ui_dpad_37
+  - first:
+      213: 4739398395842516569
+    second: ui_dpad_38
+  - first:
+      213: 5909441190628761303
+    second: ui_dpad_39
+  - first:
+      213: 5646893665143559026
+    second: ui_dpad_40
+  - first:
+      213: -4732739274012258472
+    second: ui_dpad_41
+  - first:
+      213: 8645699960899595615
+    second: ui_dpad_42
+  - first:
+      213: -44185627060958362
+    second: ui_dpad_43
+  - first:
+      213: 2199314071641078484
+    second: ui_dpad_44
+  - first:
+      213: -5262025432082228628
+    second: ui_dpad_45
+  - first:
+      213: 4293073959422049317
+    second: ui_dpad_46
+  - first:
+      213: -6133605855938565697
+    second: ui_dpad_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ui_dpad_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 328
+        width: 183
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500a1e9fe423af820800000000000000
+      internalID: 2952727820475932677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 340
+        width: 172
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a675d2bafb795500800000000000000
+      internalID: 385475559789262504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 396
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb40a63465ef6330800000000000000
+      internalID: 3706433236925172717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_3
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 412
+        width: 104
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f31441c51d02740800000000000000
+      internalID: 5125326569354641175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_4
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 476
+        width: 220
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489d0d7be7e60ede0800000000000000
+      internalID: -1305922401408591484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_5
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 368
+        width: 48
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c218ddf8d1dea740800000000000000
+      internalID: 5165296552542474950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_6
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 437
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a60d2b85eea08b80800000000000000
+      internalID: -8394517404512876890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_7
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 443
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4241f18f4be01b0800000000000000
+      internalID: -5688410301556054863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_8
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 417
+        width: 130
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8908d1852d163e0800000000000000
+      internalID: -2062135878465054469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_9
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 397
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8eb4666ab912e700800000000000000
+      internalID: 568044791374593678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_10
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 363
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516515a2d026181b0800000000000000
+      internalID: -5656131848316561899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_11
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 377
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa8beff7b3804820800000000000000
+      internalID: 2900462986322479861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_12
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 341
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609aa8c4a2cdeb7f0800000000000000
+      internalID: -594796026535433978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_13
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 332
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662c227398e74a2c0800000000000000
+      internalID: -4421269806370340250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_14
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 335
+        width: 130
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54de384b0718bbab0800000000000000
+      internalID: -4991253440945197755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_15
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 346
+        width: 143
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7c5280b81619700800000000000000
+      internalID: 545324279653582828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_16
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 302
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1572c415ccfa66780800000000000000
+      internalID: -8690065138892658863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 171
+        width: 156
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e812386d677a85340800000000000000
+      internalID: 4852812727338606990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_18
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 205
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251c1e2fb7c867100800000000000000
+      internalID: 105426105273532754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_19
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 217
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302c7dbc4c19740a0800000000000000
+      internalID: -6897384029875092989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_20
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 221
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b92267d5735ed40800000000000000
+      internalID: 5612953385140656946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_21
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 269
+        width: 130
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcad345d8174257e0800000000000000
+      internalID: -1778280730875143477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_22
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 252
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd868d9dcd2d6080800000000000000
+      internalID: -9192640903258927660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_23
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 254
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e203a7880d2ca4710800000000000000
+      internalID: 1678368012047626286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_24
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 262
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1c3ed0681be6540800000000000000
+      internalID: 5003131425371963829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_25
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 104
+        width: 105
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b736aa100174568b0800000000000000
+      internalID: -5159639664010042501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_26
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 114
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d6e56fc644f24e0800000000000000
+      internalID: -2004308074376041136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_27
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 204
+        width: 117
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b627209f2d2bfe20800000000000000
+      internalID: 3385349227204257462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_28
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 205
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31efc1bb69f334530800000000000000
+      internalID: 3837981224066678291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 36
+        width: 133
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c74e0d0ed3f30a70800000000000000
+      internalID: 8792139032584669126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_30
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 143
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5adcbbbda549b3e0800000000000000
+      internalID: -2037520743927063972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_31
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 92
+        width: 111
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdaacfed92217c1c0800000000000000
+      internalID: -4483594932979979556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_32
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 126
+        width: 74
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e961130c65769550800000000000000
+      internalID: 6167245846498863593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_33
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 128
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a76a84513580dc0800000000000000
+      internalID: -3672594145242350969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_34
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 138
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881392d3cfb50a520800000000000000
+      internalID: 2711268114593034632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_35
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 153
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e314af38c09835270800000000000000
+      internalID: 8238078830237598014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_36
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 114
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3f617a28dd71150800000000000000
+      internalID: 5843382594755294186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_37
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 50
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e3a457ebc9f88c0800000000000000
+      internalID: -3994802002628821483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_38
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 73
+        width: 75
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956df390bb9b5c140800000000000000
+      internalID: 4739398395842516569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_39
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 7
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de1d7c047d820250800000000000000
+      internalID: 5909441190628761303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_40
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 49
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2731943bedbcd5e40800000000000000
+      internalID: 5646893665143559026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_41
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 3
+        width: 103
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f85f594bee15eb0800000000000000
+      internalID: -4732739274012258472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_42
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 4
+        width: 99
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d670cbe42bbf770800000000000000
+      internalID: 8645699960899595615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_43
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 12
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b8ad20865036ff0800000000000000
+      internalID: -44185627060958362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da3fa5ee78858e10800000000000000
+      internalID: 2199314071641078484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_45
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 9
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6adaa9bfb789f6b0800000000000000
+      internalID: -5262025432082228628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_46
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 4
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cb4d93500149b30800000000000000
+      internalID: 4293073959422049317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_dpad_47
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9a684a8fd01eaa0800000000000000
+      internalID: -6133605855938565697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: dae385a844ddc4f40b31097aa55dc0e1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

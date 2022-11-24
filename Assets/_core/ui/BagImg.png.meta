@@ -1,0 +1,2204 @@
+fileFormatVersion: 2
+guid: c40fa26c102c64548b2c9132b15f0fd3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2791686867388051661
+    second: BagImg_0
+  - first:
+      213: 1503116503118265938
+    second: BagImg_1
+  - first:
+      213: 1992958883115496837
+    second: BagImg_2
+  - first:
+      213: 8145827410529049652
+    second: BagImg_3
+  - first:
+      213: 5103707657424587619
+    second: BagImg_4
+  - first:
+      213: 6808816162477708634
+    second: BagImg_5
+  - first:
+      213: -1926732768634145219
+    second: BagImg_6
+  - first:
+      213: -2178827078510558883
+    second: BagImg_7
+  - first:
+      213: 3131358890134466766
+    second: BagImg_8
+  - first:
+      213: -5209264683554672963
+    second: BagImg_9
+  - first:
+      213: -782280625611337647
+    second: BagImg_10
+  - first:
+      213: 8449255158973860419
+    second: BagImg_11
+  - first:
+      213: 1320576112938548999
+    second: BagImg_12
+  - first:
+      213: -7136358355959773603
+    second: BagImg_13
+  - first:
+      213: -729254091111396342
+    second: BagImg_14
+  - first:
+      213: 3952815172300680430
+    second: BagImg_15
+  - first:
+      213: 6083424136784522930
+    second: BagImg_16
+  - first:
+      213: 7631652600544106573
+    second: BagImg_17
+  - first:
+      213: -6877243421523989146
+    second: BagImg_18
+  - first:
+      213: -9030356252850860913
+    second: BagImg_19
+  - first:
+      213: -7602055115876556359
+    second: BagImg_20
+  - first:
+      213: -4190549395148875242
+    second: BagImg_21
+  - first:
+      213: 7748453165820625173
+    second: BagImg_22
+  - first:
+      213: -6322880517600141081
+    second: BagImg_23
+  - first:
+      213: -4830902919793037172
+    second: BagImg_24
+  - first:
+      213: 1955573502576973691
+    second: BagImg_25
+  - first:
+      213: 6871465448691030100
+    second: BagImg_26
+  - first:
+      213: 3303337157679045134
+    second: BagImg_27
+  - first:
+      213: 3548873344892317582
+    second: BagImg_28
+  - first:
+      213: -4740528682398862094
+    second: BagImg_29
+  - first:
+      213: 6007907683306408038
+    second: BagImg_30
+  - first:
+      213: 943288338447747717
+    second: BagImg_31
+  - first:
+      213: 1424214257016025561
+    second: BagImg_32
+  - first:
+      213: 5643266814912768057
+    second: BagImg_33
+  - first:
+      213: -8422275276577512001
+    second: BagImg_34
+  - first:
+      213: -5621476275070623919
+    second: BagImg_35
+  - first:
+      213: -4288478548881378304
+    second: BagImg_36
+  - first:
+      213: 5035450303192521114
+    second: BagImg_37
+  - first:
+      213: 6829903600148700073
+    second: BagImg_38
+  - first:
+      213: -171692587235810966
+    second: BagImg_39
+  - first:
+      213: -5998520243288991434
+    second: BagImg_40
+  - first:
+      213: 6422980576980176135
+    second: BagImg_41
+  - first:
+      213: 3073457255415160485
+    second: BagImg_42
+  - first:
+      213: -8166836732040062340
+    second: BagImg_43
+  - first:
+      213: -919842440456882138
+    second: BagImg_44
+  - first:
+      213: -130124543405927692
+    second: BagImg_45
+  - first:
+      213: -6792571895830714505
+    second: BagImg_46
+  - first:
+      213: -4298039155013048125
+    second: BagImg_47
+  - first:
+      213: -6813430737487080813
+    second: BagImg_48
+  - first:
+      213: -427389791331979225
+    second: BagImg_49
+  - first:
+      213: -5976572423451077849
+    second: BagImg_50
+  - first:
+      213: 277481452075101813
+    second: BagImg_51
+  - first:
+      213: 1227363372753363653
+    second: BagImg_52
+  - first:
+      213: 5224398279231210825
+    second: BagImg_53
+  - first:
+      213: -1720930294017791675
+    second: BagImg_54
+  - first:
+      213: 6516437458109953216
+    second: BagImg_55
+  - first:
+      213: 3926294574236049037
+    second: BagImg_56
+  - first:
+      213: 9155466292758781577
+    second: BagImg_57
+  - first:
+      213: -6832366350676730584
+    second: BagImg_58
+  - first:
+      213: -3943670820944960590
+    second: BagImg_59
+  - first:
+      213: 7693511100809769713
+    second: BagImg_60
+  - first:
+      213: 590319416810257248
+    second: BagImg_61
+  - first:
+      213: -4740933149532438910
+    second: BagImg_62
+  - first:
+      213: 9001037807118005227
+    second: BagImg_63
+  - first:
+      213: 711155597971337210
+    second: BagImg_64
+  - first:
+      213: -8151963777014860097
+    second: BagImg_65
+  - first:
+      213: -3458948690752885384
+    second: BagImg_66
+  - first:
+      213: -235326266494191018
+    second: BagImg_67
+  - first:
+      213: -8950201362428454593
+    second: BagImg_68
+  - first:
+      213: -8475793427032944503
+    second: BagImg_69
+  - first:
+      213: 9086627411330375136
+    second: BagImg_70
+  - first:
+      213: 9031404711990787609
+    second: BagImg_71
+  - first:
+      213: 7582219408276246435
+    second: BagImg_72
+  - first:
+      213: 8697458973903730779
+    second: BagImg_73
+  - first:
+      213: 1421841580070324732
+    second: BagImg_74
+  - first:
+      213: 8706415221720883142
+    second: BagImg_75
+  - first:
+      213: 7168187152551931635
+    second: BagImg_76
+  - first:
+      213: 7895614260623812824
+    second: BagImg_77
+  - first:
+      213: -8717874550414699782
+    second: BagImg_78
+  - first:
+      213: -110773848519169560
+    second: BagImg_79
+  - first:
+      213: -5495978110832670934
+    second: BagImg_80
+  - first:
+      213: 3730338186312820889
+    second: BagImg_81
+  - first:
+      213: 7662191406313775700
+    second: BagImg_82
+  - first:
+      213: 7720938918035233767
+    second: BagImg_83
+  - first:
+      213: -3341975405232940861
+    second: BagImg_84
+  - first:
+      213: -7628953633241907675
+    second: BagImg_85
+  - first:
+      213: 5645033140068239785
+    second: BagImg_86
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BagImg_0
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 228
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0b9c63a601eb620800000000000000
+      internalID: 2791686867388051661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 230
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e3468ee742cd410800000000000000
+      internalID: 1503116503118265938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 230
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585fe088b8968ab10800000000000000
+      internalID: 1992958883115496837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_3
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 228
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c59361fdacb0170800000000000000
+      internalID: 8145827410529049652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 228
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bcb36e21304d640800000000000000
+      internalID: 5103707657424587619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_5
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 228
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a551c61a936cd7e50800000000000000
+      internalID: 6808816162477708634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_6
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 228
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36f47451ced245e0800000000000000
+      internalID: -1926732768634145219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 228
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d514066e05043c1e0800000000000000
+      internalID: -2178827078510558883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_8
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 228
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0f9b6e152d47b20800000000000000
+      internalID: 3131358890134466766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 228
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe6cb3ce59f4b7b0800000000000000
+      internalID: -5209264683554672963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_10
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 228
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15014cb6ae7c425f0800000000000000
+      internalID: -782280625611337647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_11
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 228
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a064f0dc8c14570800000000000000
+      internalID: 8449255158973860419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_12
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 232
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f719e5af0a35210800000000000000
+      internalID: 1320576112938548999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_13
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 232
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d568023a2ef86fc90800000000000000
+      internalID: -7136358355959773603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_14
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 232
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c0e44944b21e5f0800000000000000
+      internalID: -729254091111396342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_15
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 232
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeca1cfc4783bd630800000000000000
+      internalID: 3952815172300680430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_16
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 148
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be2413650aac6450800000000000000
+      internalID: 6083424136784522930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_17
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 189
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d481e902b9319e960800000000000000
+      internalID: 7631652600544106573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_18
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 191
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66dab2a9b8f1f80a0800000000000000
+      internalID: -6877243421523989146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_19
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 191
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cc89935dabda280800000000000000
+      internalID: -9030356252850860913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_20
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 191
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1ac374623108690800000000000000
+      internalID: -7602055115876556359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_21
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 191
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a5c60178d28d5c0800000000000000
+      internalID: -4190549395148875242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_22
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 191
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5114d7be919088b60800000000000000
+      internalID: 7748453165820625173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_23
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 191
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0a4375bad9048a0800000000000000
+      internalID: -6322880517600141081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_24
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 191
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80b651c36f25fcb0800000000000000
+      internalID: -4830902919793037172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_25
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 191
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7754415db7932b10800000000000000
+      internalID: 1955573502576973691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_26
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 191
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45859934b695c5f50800000000000000
+      internalID: 6871465448691030100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_27
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 191
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0adec0a4afc7dd20800000000000000
+      internalID: 3303337157679045134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_28
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 189
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fa8232181204130800000000000000
+      internalID: 3548873344892317582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_29
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 189
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4b01e9742463eb0800000000000000
+      internalID: -4740528682398862094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_30
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 189
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66881dae430606350800000000000000
+      internalID: 6007907683306408038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_31
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 152
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a42fdfebb371d00800000000000000
+      internalID: 943288338447747717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_32
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 108
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1bc792253d3c310800000000000000
+      internalID: 1424214257016025561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_33
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 148
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93820a3d449e05e40800000000000000
+      internalID: 5643266814912768057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_34
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 152
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5ea0352411e1b80800000000000000
+      internalID: -8422275276577512001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_35
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 152
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f11279c118cf1b0800000000000000
+      internalID: -5621476275070623919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_36
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 152
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004fa0b2b734c74c0800000000000000
+      internalID: -4288478548881378304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_37
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 152
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a995ced2f5381e540800000000000000
+      internalID: 5035450303192521114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_38
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 152
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab56015321b8ce50800000000000000
+      internalID: 6829903600148700073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_39
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 152
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61ed3760860e9df0800000000000000
+      internalID: -171692587235810966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_40
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 152
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63915c8ce99f0cca0800000000000000
+      internalID: -5998520243288991434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_41
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 152
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d032aedc2032950800000000000000
+      internalID: 6422980576980176135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_42
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 152
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae1e55071d17aa20800000000000000
+      internalID: 3073457255415160485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_43
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 146
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ad320134199ae80800000000000000
+      internalID: -8166836732040062340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_44
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 146
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6283d378c201c33f0800000000000000
+      internalID: -919842440456882138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_45
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 189
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2dabdca64b13ef0800000000000000
+      internalID: -130124543405927692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_46
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 94
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77765bd69dfebb1a0800000000000000
+      internalID: -6792571895830714505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_47
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 94
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c82ab6192c4a54c0800000000000000
+      internalID: -4298039155013048125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_48
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 94
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392da56e7d4d171a0800000000000000
+      internalID: -6813430737487080813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_49
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 94
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720770bcf3b911af0800000000000000
+      internalID: -427389791331979225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 94
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7239dcdcb03fe0da0800000000000000
+      internalID: -5976572423451077849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_51
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 94
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e22b619efc9d300800000000000000
+      internalID: 277481452075101813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_52
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 94
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c22a431c78780110800000000000000
+      internalID: 1227363372753363653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_53
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 94
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9450dbe0e8ac08840800000000000000
+      internalID: 5224398279231210825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_54
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 108
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5496cd5f3070e18e0800000000000000
+      internalID: -1720930294017791675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_55
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 108
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c471b3b7590f6a50800000000000000
+      internalID: 6516437458109953216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_56
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 106
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e12e4ec100d7630800000000000000
+      internalID: 3926294574236049037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_57
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 106
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e13f4e510ce0f70800000000000000
+      internalID: 9155466292758781577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_58
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 51
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dd494e00f8e21a0800000000000000
+      internalID: -6832366350676730584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_59
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 51
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3a08668444549c0800000000000000
+      internalID: -3943670820944960590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_60
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 51
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f27a4f8597d4ca60800000000000000
+      internalID: 7693511100809769713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_61
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 51
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bbdf6c16c313800800000000000000
+      internalID: 590319416810257248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_62
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 51
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ebe364b62d43eb0800000000000000
+      internalID: -4740933149532438910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 51
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3312f223c1aec70800000000000000
+      internalID: 9001037807118005227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_64
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 51
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affac1d9f388ed900800000000000000
+      internalID: 711155597971337210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_65
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 51
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb67d21c2286ede80800000000000000
+      internalID: -8151963777014860097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_66
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 51
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d2f57fd785fffc0800000000000000
+      internalID: -3458948690752885384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_67
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 74
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a7b47e104fbbcf0800000000000000
+      internalID: -235326266494191018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_68
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 81
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f391c34f74f7ac380800000000000000
+      internalID: -8950201362428454593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_69
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 78
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9805c18e8ceef5a80800000000000000
+      internalID: -8475793427032944503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_70
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 78
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed9ca2dc7f2a1e70800000000000000
+      internalID: 9086627411330375136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_71
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 77
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91efff03cbef55d70800000000000000
+      internalID: 9031404711990787609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_72
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 8
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afc0672164793960800000000000000
+      internalID: 7582219408276246435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_73
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 8
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58b01c0bd493b870800000000000000
+      internalID: 8697458973903730779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_74
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 8
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9c8f242656bb310800000000000000
+      internalID: 1421841580070324732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_75
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 8
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf1abdf38663d870800000000000000
+      internalID: 8706415221720883142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_76
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 8
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe606f8c348a7360800000000000000
+      internalID: 7168187152551931635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_77
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 8
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8adf7565bd29d60800000000000000
+      internalID: 7895614260623812824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_78
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 8
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af21d122943e30780800000000000000
+      internalID: -8717874550414699782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_79
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 8
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9ac9c85c3767ef0800000000000000
+      internalID: -110773848519169560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_80
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 8
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a270f72f60d5ab3b0800000000000000
+      internalID: -5495978110832670934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_81
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 189
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9982047f0d2d4c330800000000000000
+      internalID: 3730338186312820889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_82
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 148
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452226eec72955a60800000000000000
+      internalID: 7662191406313775700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_83
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 148
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb9af5e909462b60800000000000000
+      internalID: 7720938918035233767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_84
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 152
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c89ff2531bee91d0800000000000000
+      internalID: -3341975405232940861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_85
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 94
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52eb0ba2713802690800000000000000
+      internalID: -7628953633241907675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BagImg_86
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 148
+        width: 125
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a943137bbf275e40800000000000000
+      internalID: 5645033140068239785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8ce5a575552d7dd4eb42b3a1f3612633
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

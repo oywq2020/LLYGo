@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: AnimatorController
+  m_EditorClassIdentifier: 
+  m_GroupName: AnimatorController
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ed596781a72d3554baf708e6800af8d9
+  m_SerializeEntries:
+  - m_GUID: d1b7b3b33623de64489698abc0ab9ef7
+    m_Address: EmptyHanded
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AniCtrl
+  - m_GUID: 08f4c8f0260eda44b979c1fe26a21b3e
+    m_Address: knight
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AniCtrl
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 6d8b90ca85f764340b128f5c598e71aa, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b4626cde16ed71141a1e3d300ee771ff, type: 2}
+    - {fileID: 11400000, guid: cda20b71742a00f47845881a83d7e9bd, type: 2}

@@ -39,6 +39,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ac2ab0551fea8c94c9080c59eb65f862, type: 2}
   - {fileID: 11400000, guid: 1576d8b9030693f4f94082a17fa67152, type: 2}
   - {fileID: 11400000, guid: 46424d068e65ffb459a8036804cb7ae5, type: 2}
+  - {fileID: 11400000, guid: 34d4439531b62904b833fb0d7a6408dc, type: 2}
+  - {fileID: 11400000, guid: ea2ff42376f6f324fb31ec7b51caaa88, type: 2}
+  - {fileID: 11400000, guid: 03fdb5fdf1d8d3c43a6d4b9de75aa5d6, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -80,6 +83,8 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - Weapon
+    - AniCtrl
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 5a46765c4167f0340b856d1c85f306f7, type: 2}
