@@ -30,7 +30,7 @@ public class ShortBagMgr : MonoBehaviour
             
             //init
             var itemObj = Instantiate(itemPrototype, transform.GetChild(i-itemListOffset).transform);
-            itemObj.GetComponent<Image>().sprite = item.itemImage;
+            itemObj.GetComponent<Image>().sprite = item.itemImage.LoadAssetAsync().WaitForCompletion();
 
             if (!item.isEquip)
             {

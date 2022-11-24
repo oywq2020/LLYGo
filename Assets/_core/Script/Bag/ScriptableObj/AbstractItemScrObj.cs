@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 
-[CreateAssetMenu(fileName = "New Item",menuName = "Inventory/New Item")]
 public class AbstractItemScrObj : ScriptableObject
 {
    public string itemName;
-   public Sprite itemImage;
+   public AssetReferenceSprite itemImage;
    
    //divide items into two categories
    public bool  isEquip;

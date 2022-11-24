@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e5d17a21594effb4e9591490b009e7aa, type: 3}
-  m_Name: Bag_BundledAssetGroupSchema
+  m_Name: Sprite_BundledAssetGroupSchema
   m_EditorClassIdentifier: 
   m_Group: {fileID: 11400000, guid: 03fdb5fdf1d8d3c43a6d4b9de75aa5d6, type: 2}
   m_InternalBundleIdMode: 1

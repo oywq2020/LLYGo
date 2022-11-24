@@ -10,13 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Bag
+  m_Name: Sprite
   m_EditorClassIdentifier: 
-  m_GroupName: Bag
+  m_GroupName: Sprite
   m_Data:
     m_SerializedData: []
   m_GUID: 7f72b08f27eabff4a9e2bd18583f12a1
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 3f0638835b64a2040bf45880ef18864d
+    m_Address: Assets/_core/ui/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c40fa26c102c64548b2c9132b15f0fd3
+    m_Address: Assets/_core/ui/BagImg.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ae3079121240ce54fa8b9c15cdcc035d
+    m_Address: Assets/_core/ui/Loading.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 6d8b90ca85f764340b128f5c598e71aa, type: 2}
   m_SchemaSet:

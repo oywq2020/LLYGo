@@ -58,7 +58,7 @@ public class BagMgr : MonoBehaviour
             {
                 //create item prototype
                 var itemObj = Instantiate(itemPrototype, transform.GetChild(i - startLimit).transform);
-                itemObj.GetComponent<Image>().sprite = item.itemImage;
+                itemObj.GetComponent<Image>().sprite = item.itemImage.LoadAssetAsync().WaitForCompletion();
 
                 if (!item.isEquip)
                 {
