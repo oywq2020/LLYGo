@@ -28,6 +28,8 @@ public class LoginController : AbstractUIPanel
 
         //assign
         _uIkit = GameFacade.Instance.GetInstance<IUIkit>();
+        
+        Debug.Log("OnOpen");
     }
 
     protected override void Onclose()

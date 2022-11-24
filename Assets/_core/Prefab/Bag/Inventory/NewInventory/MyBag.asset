@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: MyBag
   m_EditorClassIdentifier: 
   itemList:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: d06956ca541a26843a07ea401b2ac5da, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 11400000, guid: d06956ca541a26843a07ea401b2ac5da, type: 2}
   - {fileID: 11400000, guid: d06956ca541a26843a07ea401b2ac5da, type: 2}
+  - {fileID: 11400000, guid: d06956ca541a26843a07ea401b2ac5da, type: 2}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 11400000, guid: d06956ca541a26843a07ea401b2ac5da, type: 2}
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: d06956ca541a26843a07ea401b2ac5da, type: 2}
   - {fileID: 11400000, guid: d06956ca541a26843a07ea401b2ac5da, type: 2}
   maxCount: 13

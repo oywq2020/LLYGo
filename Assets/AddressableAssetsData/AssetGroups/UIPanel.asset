@@ -33,6 +33,14 @@ MonoBehaviour:
     m_Address: Tips
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 24bdf4aabe5152b408abac5945e20905
+    m_Address: ShortBagPanel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c5d25dd99b6aaf4780e10ce9e075b31
+    m_Address: BagPanel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 6d8b90ca85f764340b128f5c598e71aa, type: 2}
   m_SchemaSet:

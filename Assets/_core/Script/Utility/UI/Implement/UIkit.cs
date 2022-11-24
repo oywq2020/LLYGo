@@ -43,20 +43,18 @@ namespace Script.UI
                 }
                 else
                 {
-                     gameObject = _gameObjectPool.Dequeue(key);
+                     gameObject = _gameObjectPool.Dequeue(key,LayerAdaptor.GetTransform(layer));
                     _openedUiPanel.Add(key,gameObject);
-                    gameObject.GetComponent<IUIPanel>().SetUILayer(layer);
                 }
             }
             else
             {
-                 gameObject = _gameObjectPool.Dequeue(key);
+                 gameObject = _gameObjectPool.Dequeue(key,LayerAdaptor.GetTransform(layer));
 
                 if ( !_openedUiPanel.ContainsKey(key))
                 {
                     _openedUiPanel.Add(key,gameObject);
                 }
-                gameObject.GetComponent<IUIPanel>().SetUILayer(layer);
             }
             return gameObject;
 

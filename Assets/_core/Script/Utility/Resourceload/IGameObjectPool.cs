@@ -6,7 +6,7 @@ namespace Script.Abstract
     public interface IGameObjectPool
     {
          void Enqueue(GameObject obj);
-         GameObject Dequeue(string key);
+         GameObject Dequeue(string key,Transform parent = null);
          void ReleaseAll();
     }
 }

@@ -47,6 +47,7 @@ public class SceneStateController
         _canUpdate = true;
     }
 
+    // ReSharper disable Unity.PerformanceAnalysis
     /// <summary>
     /// current state real time update
     /// </summary>

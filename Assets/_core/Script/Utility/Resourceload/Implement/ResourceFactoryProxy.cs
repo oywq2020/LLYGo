@@ -39,7 +39,7 @@ namespace Script.AssetFactory
             
         }
         
-        public GameObject Dequeue(string key)
+        public GameObject Dequeue(string key,Transform parent = null)
         {
             GameObject gameObject;
             if (_disableObjects.TryGetValue(key, out Queue<GameObject> queue))
@@ -53,7 +53,7 @@ namespace Script.AssetFactory
                 {
                     //if the gameobjects in GameObject Pool are exhausted, load it
                     //note: you do not need put it into pool cause the pool is for disabled GameObject
-                    gameObject = _resourceFactory.InstantiateGameObject(key);
+                    gameObject = _resourceFactory.InstantiateGameObject(key,parent);
                     
                     //record this asset key
                     _loadedAssetKeys.Add(key);
@@ -63,7 +63,7 @@ namespace Script.AssetFactory
             {
                 //if not found, load it
                 //note: you do not need put it into pool cause the pool is for disabled GameObject
-                gameObject = _resourceFactory.InstantiateGameObject(key);
+                gameObject = _resourceFactory.InstantiateGameObject(key,parent);
                 
                 //record this asset key
                 _loadedAssetKeys.Add(key);

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83913816c21f49599bd88392632d5e1b, type: 3}
   m_Name: Sword
   m_EditorClassIdentifier: 
-  itemName: Sword
+  itemName: "\u796D\u793C\u5251"
   itemImage:
-    m_AssetGUID: c40fa26c102c64548b2c9132b15f0fd3
+    m_AssetGUID: d063499cc8e1fc041a41e542efe2201b
     m_SubObjectName: 
     m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null

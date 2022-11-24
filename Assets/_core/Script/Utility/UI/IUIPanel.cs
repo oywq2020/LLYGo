@@ -8,6 +8,6 @@ namespace Script.UI
         bool isOnOpen { get;  set; }
 
         void OnOpen();
-        void SetUILayer(UILayer layer);
+       // void SetUILayer(UILayer layer);
     }
 }
