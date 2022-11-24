@@ -4,6 +4,7 @@ using System.IO;
 using Cysharp.Threading.Tasks;
 using MagicaCloth;
 using QFramework;
+using Script.Event;
 using UnityEngine;
 using UnityEngine.Animations.Rigging;
 using UnityEngine.UI;
@@ -48,7 +49,7 @@ namespace Player
             _viewCamera = Camera.main;
             
             //registering
-            
+          
         }
 
       
@@ -61,15 +62,21 @@ namespace Player
 
         #region Registering
         //register it to your relative event
-        void Pause()
+        void Pause(OnMouseEntryGUI e)
         {
             updatePause = true;
         }
-        void Continue()
+        void Continue(OnMouseExitGUI e)
         {
             updatePause = false;
         }
-        
+
+
+        private void OnDestroy()
+        {
+            GameFacade.Instance?.UnRegisterEvent<OnMouseEntryGUI>(Pause);
+            GameFacade.Instance?.UnRegisterEvent<OnMouseExitGUI>(Continue);
+        }
 
         #endregion
        

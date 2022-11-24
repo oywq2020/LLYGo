@@ -20,7 +20,7 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
     m_EditorAssetChanged: 0
   isEquip: 1
-  info: this is sword
+  info: this is a sword
   swordGameObjectRf:
     m_AssetGUID: fdf3453280e9d9546a8cd251a9888a9a
     m_SubObjectName: 

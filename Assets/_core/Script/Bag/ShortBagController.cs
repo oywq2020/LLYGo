@@ -20,8 +20,10 @@ namespace _core.Script.Bag
         private void Start()
         {
             _childrenCount = transform.childCount;
-            
             Select(0);
+            
+            //register event
+            GameFacade.Instance.RegisterEvent<OnWeaponBagRefreshed>(WeaponBagRefreshed);
         }
 
         private void Update()
@@ -30,7 +32,6 @@ namespace _core.Script.Bag
              
              if (_axis>0.1)
              {
-                 Debug.Log("SetClo");
                  //ScrollWheel scrolls up
                  _shortBagIndex = (--_shortBagIndex+_childrenCount) %  _childrenCount;
                  Select(_shortBagIndex);
@@ -55,8 +56,18 @@ namespace _core.Script.Bag
             
             //send Event
             GameFacade.Instance.SendEvent(new OnShortIdexChanged(){Index = _shortBagIndex});
+          
         }
-        
-        
+
+        void WeaponBagRefreshed(OnWeaponBagRefreshed e)
+        {
+            //reset the index
+            Select(_shortBagIndex);
+        }
+
+        private void OnDestroy()
+        {
+            GameFacade.Instance.UnRegisterEvent<OnWeaponBagRefreshed>(WeaponBagRefreshed);
+        }
     }
 }

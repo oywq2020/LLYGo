@@ -6,9 +6,10 @@ using PlayerRegion;
 using Script.Event;
 using Script.Facade;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class BagMgr : MonoBehaviour
+public class BagMgr : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public GameObject itemPrototype;
 
@@ -42,7 +43,6 @@ public class BagMgr : MonoBehaviour
             if (i > endLimit || !_currentPlayerBag.itemList[i]) continue;
          
             var item = _currentPlayerBag.itemList[i];
-            Debug.Log("Item"+item);
 
             if (transform.GetChild(i - startLimit).transform.childCount != 0)
             {
@@ -58,8 +58,15 @@ public class BagMgr : MonoBehaviour
             {
                 //create item prototype
                 var itemObj = Instantiate(itemPrototype, transform.GetChild(i - startLimit).transform);
-                itemObj.GetComponent<Image>().sprite = item.itemImage.LoadAssetAsync().WaitForCompletion();
-
+                if (item.itemImage.Asset)
+                {
+                    itemObj.GetComponent<Image>().sprite = (Sprite) item.itemImage.Asset;
+                }
+                else
+                {
+                    itemObj.GetComponent<Image>().sprite = item.itemImage.LoadAssetAsync().WaitForCompletion();
+                }
+                
                 if (!item.isEquip)
                 {
                     itemObj.transform.GetChild(0).GetComponent<Text>().text = ((NormalItem)item).count.ToString();
@@ -71,6 +78,12 @@ public class BagMgr : MonoBehaviour
               
             }
         }
+
+        if (startLimit == 0)
+        {
+            //indicate this bag is short bag,weapon bar, send this event
+            GameFacade.Instance.SendEvent<OnWeaponBagRefreshed>();
+        }
     }
 
     private void PlayerBagRefreshEvent(OnPlayerBagRefresh e)
@@ -78,10 +91,29 @@ public class BagMgr : MonoBehaviour
         RefreshInventory();
     }
 
+    private void OnMouseEnter()
+    {
+       
+    }
+    private void OnMouseExit()
+    {
+       
+    }
 
     private void OnDestroy()
     {
         //unregister event of bag refresh
         GameFacade.Instance?.UnRegisterEvent<OnPlayerBagRefresh>(PlayerBagRefreshEvent);
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+       
+        GameFacade.Instance.SendEvent<OnMouseEntryGUI>();
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        GameFacade.Instance.SendEvent<OnMouseExitGUI>();
     }
 }

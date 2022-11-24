@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
+using UnityEngine;
 
 namespace Script.Facade
 {
@@ -71,7 +72,6 @@ namespace Script.Facade
         }
         public void Send<T>()where T:new()
         {
-            
             if (_dictionary.TryGetValue(typeof(T),out IEvent e))
             {
                 ((MyEvent<T>)e).Trigger(new T());

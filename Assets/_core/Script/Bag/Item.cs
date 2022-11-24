@@ -34,11 +34,20 @@ public class Item : MonoBehaviour
         //add new item
         if (!_currentPlayerBag.itemList.Contains(thisAbstractItemScrObj))
         {
-            //judge whether out index
+            //judge whether the bag is full
             if (_currentPlayerBag.itemList.Count>_currentPlayerBag.maxCount) return;
-            
-            _currentPlayerBag.itemList.Add(thisAbstractItemScrObj);
 
+            //travel out empty slot in my bag list and put this item into it
+            for (int i = 0; i < _currentPlayerBag.maxCount; i++)
+            {
+                if (! _currentPlayerBag.itemList[i])
+                {
+                    _currentPlayerBag.itemList[i] = thisAbstractItemScrObj;
+                    break;
+                }
+            }
+            
+            //if this 
             if (!thisAbstractItemScrObj.isEquip)
             {
                 ((NormalItem)thisAbstractItemScrObj).count++;
@@ -50,6 +59,18 @@ public class Item : MonoBehaviour
             if (!thisAbstractItemScrObj.isEquip)
             {
                 ((NormalItem)thisAbstractItemScrObj).count++;
+            }
+            else
+            {
+                //the equip don't permit overlap,need fill another slot
+                for (int i = 0; i < _currentPlayerBag.maxCount; i++)
+                {
+                    if (! _currentPlayerBag.itemList[i])
+                    {
+                        _currentPlayerBag.itemList[i] = thisAbstractItemScrObj;
+                        break;
+                    }
+                }
             }
 
         }
