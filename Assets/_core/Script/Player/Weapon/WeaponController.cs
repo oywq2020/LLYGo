@@ -6,6 +6,7 @@ using Cysharp.Threading.Tasks;
 using Player;
 using PlayerRegion;
 using Script.Event;
+using Script.UI;
 using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
@@ -23,23 +24,22 @@ public class WeaponController : MonoBehaviour
     private IAssetFactory _assetFactory;
     private GameObject _weaponHolder;
     private AnimatorController _aniCtrlHolder;
-    
+
     //private struct variable
     private bool _canAttack = true;
     private int _index; //index for selecting weapon
     private bool _pause = false;
 
-  
-    
+    private Action _hit;
+    private Action _endAttack;
+
 
     private void Start()
     {
-        //get weapon interface
-        _weapon = playerPalm.GetChild(0).GetComponent<IWeapon>();
         _animator = GetComponent<Animator>();
 
         _assetFactory = GameFacade.Instance.GetInstance<IAssetFactory>();
-        
+
         //register event
         GameFacade.Instance.RegisterEvent<OnShortIdexChanged>(ShortIndexChanged);
         GameFacade.Instance.RegisterEvent<OnMouseEntryGUI>(Pause);
@@ -49,12 +49,12 @@ public class WeaponController : MonoBehaviour
     private void Update()
     {
         if (_pause) return;
-        
+
         //left mouse is default for normal attack
         if (Input.GetKey(KeyCode.Mouse0) && _canAttack)
         {
             //play
-            _weapon.Play();
+            _weapon.StartHit();
 
             //animator play
             _animator.SetTrigger("Attack");
@@ -74,13 +74,15 @@ public class WeaponController : MonoBehaviour
     {
         var currentItem = CurrentPlayer.Instance._bag.itemList[e.Index];
 
-        
-        
-        if (currentItem&&currentItem.isEquip)
+        if (currentItem && currentItem.isEquip)
         {
             //switch equipment
             //load this weapon
-            _weaponHolder= (currentItem as WeaponItem).swordGameObjectRf.InstantiateAsync(playerPalm).WaitForCompletion();
+            _weaponHolder = (currentItem as WeaponItem).swordGameObjectRf.InstantiateAsync(playerPalm)
+                .WaitForCompletion();
+
+            //assign name 
+            _weaponHolder.name = currentItem.itemName;
             
             //switch animator controller
             if ((currentItem as WeaponItem).aniCtrl.Asset)
@@ -94,7 +96,7 @@ public class WeaponController : MonoBehaviour
             }
 
             //release other item before
-            if (playerPalm.childCount>2)
+            if (playerPalm.childCount > 2)
             {
                 //character's hand only can hold one item;
                 Addressables.Release(playerPalm.GetChild(1).gameObject);
@@ -103,22 +105,24 @@ public class WeaponController : MonoBehaviour
         else
         {
             _animator.runtimeAnimatorController = _assetFactory.LoadAsset<AnimatorController>("EmptyHanded");
-
-            if (playerPalm.childCount>1)
+            if (playerPalm.childCount > 1)
             {
-              Addressables.Release(_weaponHolder);
+                Addressables.Release(_weaponHolder);
             }
         }
-      
-        //refresh _weapon
-        _weapon = playerPalm.GetChild(0).GetComponent<IWeapon>();
-     
+        
+        RefreshHandedWeapon(currentItem);
     }
-    
+
     async void RecoverCd()
     {
         _canAttack = false;
-        await UniTask.Delay(TimeSpan.FromSeconds(_weapon.Cd));
+        await UniTask.Delay(TimeSpan.FromSeconds(_weapon.Cd/2));
+        
+        //for insurance we reset this attack trigger advance
+        _animator.ResetTrigger("Attack");
+        
+        await UniTask.Delay(TimeSpan.FromSeconds(_weapon.Cd/2));
         _canAttack = true;
     }
 
@@ -127,8 +131,52 @@ public class WeaponController : MonoBehaviour
     {
         _pause = true;
     }
+
     void Continue(OnMouseExitGUI e)
     {
         _pause = false;
     }
+
+
+    #region AnimationFrameEvent
+
+    void RefreshHandedWeapon(AbstractItemScrObj scrObj)
+    {
+        if (scrObj)
+        {
+            //exit the last equipment
+            _weapon?.Exit();
+            
+            _weapon = playerPalm.transform.Find(scrObj.itemName).GetComponent<IWeapon>();
+            _hit = _weapon.Hit;
+            _endAttack = _weapon.EndHit;
+            
+            //init equipment
+            _weapon.Init();
+        }
+        else
+        {
+            //exit the last equipment
+            _weapon?.Exit();
+            
+            _weapon = playerPalm.transform.Find("Empty_Handed").GetComponent<IWeapon>();
+            _hit = _weapon.Hit;
+            _endAttack = _weapon.EndHit;
+            
+            //exit the last equipment
+            _weapon?.Init();
+        }
+    }
+
+    public void Hit()
+    {
+        _hit.Invoke();
+    }
+
+    public void EndAttack()
+    {
+        _endAttack.Invoke();
+    }
+
+    #endregion
 }

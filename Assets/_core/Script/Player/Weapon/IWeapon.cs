@@ -1,8 +1,16 @@
-﻿namespace Player
+﻿using System;
+
+namespace Player
 {
     interface IWeapon
     {
         float Cd { get; }
-        void Play();
+
+        void Init();
+        void Exit();
+
+        void StartHit();
+        void Hit();
+        void EndHit();
     }
 }

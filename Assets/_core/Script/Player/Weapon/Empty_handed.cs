@@ -5,6 +5,8 @@ namespace Player
 {
     public class Empty_handed : MonoBehaviour,IWeapon
     {
+        #region WeaponAttribute
+
         public float cd;
         
         public float Cd
@@ -12,10 +14,36 @@ namespace Player
             get =>cd;
         }
 
-        public void Play()
+        public void Init()
+        {
+            
+        }
+
+        public void Exit()
+        {
+           
+        }
+
+        #endregion
+        
+        
+        
+        
+        
+        public void StartHit()
         {
             //card frame
             Thread.Sleep(50);
+        }
+
+        public void Hit()
+        {
+            Debug.Log("Handed Hit");
+        }
+
+        public void EndHit()
+        {
+            
         }
     }
 }

@@ -10,9 +10,30 @@ namespace Player
         {
             get =>cd;
         }
-        public void Play()
+
+        public void Init()
         {
             
+        }
+
+        public void Exit()
+        {
+           
+        }
+
+        public void StartHit()
+        {
+            
+        }
+
+        public void Hit()
+        {
+            Debug.Log("Sword Hit");
+        }
+
+        public void EndHit()
+        {
+           
         }
     }
 }

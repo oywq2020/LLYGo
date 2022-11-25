@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83913816c21f49599bd88392632d5e1b, type: 3}
   m_Name: Sword
   m_EditorClassIdentifier: 
-  itemName: "\u796D\u793C\u5251"
+  itemName: Sword
   itemImage:
     m_AssetGUID: d063499cc8e1fc041a41e542efe2201b
     m_SubObjectName: 
