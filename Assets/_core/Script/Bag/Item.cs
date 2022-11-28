@@ -17,7 +17,7 @@ public class Item : MonoBehaviour
     private void Start()
     {
         //get current player bag
-        _currentPlayerBag = CurrentPlayer.Instance._bag;
+        _currentPlayerBag = CurrentPlayer.Instance.GetBag();
     }
 
     private void OnTriggerEnter(Collider other)

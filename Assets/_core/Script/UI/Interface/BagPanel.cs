@@ -26,7 +26,7 @@ public class BagPanel : AbstractUIPanel, IPointerEnterHandler, IPointerExitHandl
     private void Start()
     {
         //get current player's bag
-        _currentPlayerBag = CurrentPlayer.Instance._bag;
+        _currentPlayerBag = CurrentPlayer.Instance.GetBag();
 
         //register event of bag refresh
         GameFacade.Instance.RegisterEvent<OnPlayerBagRefresh>(PlayerBagRefreshEvent);

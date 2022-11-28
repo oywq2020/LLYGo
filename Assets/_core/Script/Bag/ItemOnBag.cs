@@ -25,7 +25,7 @@ namespace _core.Script.Bag
             GetComponent<CanvasGroup>().blocksRaycasts = false;
 
             //get current inventory for this bag
-            _bagItemList = CurrentPlayer.Instance._bag.itemList;
+            _bagItemList = CurrentPlayer.Instance.GetBag().itemList;
             
            
         }
@@ -62,6 +62,8 @@ namespace _core.Script.Bag
                 var index = eventData.pointerCurrentRaycast.gameObject.transform.parent.GetComponent<Index>()
                     .GetIndex();
 
+                Debug.Log("Swap Index：" + index);
+                
                 if (!_bagItemList[index].isEquip &&
                     !_bagItemList[_originalParent.GetComponent<Index>().GetIndex()].isEquip &&
                     _bagItemList[index].itemName ==

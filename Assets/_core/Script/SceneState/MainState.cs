@@ -20,6 +20,7 @@ namespace SceneStateRegion
 
         public override void StateStart()
         {
+            base.StateStart();
            //load weapon bar
            _uIkit = GameFacade.Instance.GetInstance<IUIkit>();
 

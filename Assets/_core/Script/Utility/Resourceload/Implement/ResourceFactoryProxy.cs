@@ -72,8 +72,20 @@ namespace Script.AssetFactory
             //naming this game object
             gameObject.name = key;
             
+          
             //initiate this gameObject 
-            gameObject.GetComponent<IPoolable>().Init();
+
+            if ( gameObject.GetComponent<IPoolable>()!=null)
+            {
+                gameObject.GetComponent<IPoolable>().Init();
+            }
+            else
+            {
+                //if this GameObject is not attached component implemented IPoolable 
+                //then add default poolizing component to it 
+                gameObject.AddComponent<PoolizeGBDefault>().Init();
+            }
+           
             return gameObject;
         }
 

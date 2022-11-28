@@ -62,9 +62,14 @@ namespace MysqlUtility
            
           
         }
+
+
+        public static bool AddGameData()
+        {
+            return false;
+        }
         
-        
-     
+
         private static void OpenDatabase()
         {
             try

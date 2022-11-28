@@ -67,7 +67,7 @@ namespace _core.Script.Bag
 
         private void OnDestroy()
         {
-            GameFacade.Instance.UnRegisterEvent<OnWeaponBagRefreshed>(WeaponBagRefreshed);
+            GameFacade.Instance?.UnRegisterEvent<OnWeaponBagRefreshed>(WeaponBagRefreshed);
         }
     }
 }

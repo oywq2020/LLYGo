@@ -4,6 +4,11 @@ namespace _core.Script.Live
 {
     public class CharacterLive:LiveEntity
     {
+        protected override void Init()
+        {
+            
+        }
+
         protected override void OnDead()
         {
            

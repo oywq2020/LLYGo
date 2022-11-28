@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using MysqlUtility;
+using PlayerRegion;
 using SceneStateRegion;
 using Script.Event;
 using Script.Facade;
@@ -16,6 +17,8 @@ public class LoginController : AbstractUIPanel
 
     private IUIkit _uIkit;
 
+    public GameFacade accountEntity;
+    
     public override void OnOpen()
     {
         //get input
@@ -50,8 +53,17 @@ public class LoginController : AbstractUIPanel
             {
                 if (password == myPassword)
                 {
+                    //create a current player for whole game
+                    if (CurrentPlayer.Instance)
+                    {
+                        
+                    }
+                    
+                    var account = GameFacade.Instantiate(accountEntity);
+                    
+
+
                     GameLoop.Instance.Controller.SetState(new MainState(GameLoop.Instance.Controller)).Forget();
-                    Debug.Log("login successfully");
                 }
                 else
                 {

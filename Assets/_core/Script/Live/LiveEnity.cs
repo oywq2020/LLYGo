@@ -18,10 +18,11 @@ namespace _core.Script.Live
         private void Start()
         {
             currentHp = wholeHp;
+            Init();
         }
 
 
-        public void GetHit(float damage)
+        public virtual void GetHit(float damage)
         {
             currentHp -= damage;
             OnGetHit();
@@ -37,6 +38,8 @@ namespace _core.Script.Live
             }
         }
 
+
+        protected abstract void Init();
         protected abstract void OnDead();
 
         protected abstract void OnGetHit();

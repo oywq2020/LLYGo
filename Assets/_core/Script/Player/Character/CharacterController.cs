@@ -1,29 +1,9 @@
-﻿using System;
-using System.Collections;
-using System.IO;
-using Cysharp.Threading.Tasks;
-using MagicaCloth;
-using QFramework;
-using Script.Event;
+﻿using Script.Event;
 using UnityEngine;
-using UnityEngine.Animations.Rigging;
-using UnityEngine.UI;
+
 
 namespace Player
 {
-    public enum PlayerState
-    {
-        Attack,
-        Normal
-    }
-
-    // interface IPlayer
-    // {
-    //     //Provide injection interface 
-    //     Action<PlayerState> OnStateChanged { get; set; }
-    //     AudioSource PlayerAuiSource { get; set; }
-    // }
-
     /// <summary>
     /// assemble all player physically behaviours 
     /// </summary>
@@ -33,13 +13,16 @@ namespace Player
         public float runSpeed = 4f;
         public float jumpSpeed = 5f;
         public float gravity = 20f;
-        
+
         private UnityEngine.CharacterController _characterController;
         private Vector3 _moveDirection = Vector3.zero;
         private Camera _viewCamera;
         private Animator _animator;
 
-        private bool updatePause = false;
+        private bool _updatePause = false;
+
+        //the origin variable is for making the character to ground
+        private float _currentSpeed = 0.01f;
 
         private void Start()
         {
@@ -47,62 +30,77 @@ namespace Player
             _animator = GetComponent<Animator>();
             _characterController = GetComponent<UnityEngine.CharacterController>();
             _viewCamera = Camera.main;
-            
+
             //registering
-          
+            GameFacade.Instance.RegisterEvent<OnStartAttack>(Pause);
+            GameFacade.Instance.RegisterEvent<OnEndAttack>(Continue);
+
+            //register character to GameFacede
+            GameFacade.Instance?.SetCharacter(gameObject);
         }
 
-      
+
         private void Update()
         {
-            if (updatePause) return;
-            
+            if (_updatePause) return;
+
             Movement();
         }
 
         #region Registering
+
         //register it to your relative event
-        void Pause(OnMouseEntryGUI e)
+        void Pause(OnStartAttack e)
         {
-            updatePause = true;
+            _updatePause = true;
         }
-        void Continue(OnMouseExitGUI e)
+
+        void Continue(OnEndAttack e)
         {
-            updatePause = false;
+            _updatePause = false;
         }
 
 
         private void OnDestroy()
         {
-            GameFacade.Instance?.UnRegisterEvent<OnMouseEntryGUI>(Pause);
-            GameFacade.Instance?.UnRegisterEvent<OnMouseExitGUI>(Continue);
+            GameFacade.Instance?.UnRegisterEvent<OnStartAttack>(Pause);
+            GameFacade.Instance?.UnRegisterEvent<OnEndAttack>(Continue);
         }
 
         #endregion
-       
-        
+
+
         #region MoveMent
 
-          // move and Jump
+        // move and Jump
         void Movement()
         {
-            float tempSpeed = walkSpeed;
             if (_characterController.isGrounded)
             {
                 float h = Input.GetAxis("Horizontal");
                 float v = Input.GetAxis("Vertical");
+
+                if (Mathf.Abs(h) < 0.05f && Mathf.Abs(v) < 0.05f)
+                {
+                    h = 0;
+                    v = 0;
+                }
+
                 _moveDirection = new Vector3(h, 0, v);
 
-
-                //listening state by v
                 if (!h.Equals(0) || !v.Equals(0))
                 {
                     if (Input.GetKey(KeyCode.LeftShift))
                     {
                         //only player press the leftShift and v is not zero does the character entry Run state
-                        tempSpeed = runSpeed;
+                        _currentSpeed = Mathf.Lerp(_currentSpeed, runSpeed, Time.deltaTime * 8);
+                    }
+                    else
+                    {
+                        _currentSpeed = Mathf.Lerp(_currentSpeed, walkSpeed, Time.deltaTime * 8);
                     }
                 }
+
 
                 if (Input.GetButton("Jump"))
                 {
@@ -135,7 +133,6 @@ namespace Player
                 }
             }
 
-
             //set current speed to blender tree
             _animator.SetFloat("Speed", _characterController.velocity.magnitude);
 
@@ -143,7 +140,7 @@ namespace Player
             _moveDirection = Quaternion.LookRotation(CameraForward()) * _moveDirection;
 
             _moveDirection.y -= gravity * Time.deltaTime;
-            _characterController.Move(_moveDirection * tempSpeed * Time.deltaTime);
+            _characterController.Move(_moveDirection * _currentSpeed * Time.deltaTime);
         }
 
         //forward direction in camera forward
@@ -159,10 +156,9 @@ namespace Player
             Quaternion q = Quaternion.identity;
             q.SetLookRotation(cameraDir);
             return Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, q.eulerAngles.y + offset, 0),
-                Time.deltaTime * 10);
+                Time.deltaTime * 8);
         }
 
         #endregion
-      
     }
 }

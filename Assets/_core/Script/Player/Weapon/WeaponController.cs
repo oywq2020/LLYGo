@@ -72,7 +72,7 @@ public class WeaponController : MonoBehaviour
 
     void ShortIndexChanged(OnShortIdexChanged e)
     {
-        var currentItem = CurrentPlayer.Instance._bag.itemList[e.Index];
+        var currentItem = CurrentPlayer.Instance.GetBag().itemList[e.Index];
 
         if (currentItem && currentItem.isEquip)
         {
@@ -83,7 +83,7 @@ public class WeaponController : MonoBehaviour
 
             //assign name 
             _weaponHolder.name = currentItem.itemName;
-            
+
             //switch animator controller
             if ((currentItem as WeaponItem).aniCtrl.Asset)
             {
@@ -110,20 +110,29 @@ public class WeaponController : MonoBehaviour
                 Addressables.Release(_weaponHolder);
             }
         }
-        
+
         RefreshHandedWeapon(currentItem);
     }
 
     async void RecoverCd()
     {
-        _canAttack = false;
-        await UniTask.Delay(TimeSpan.FromSeconds(_weapon.Cd/2));
+        //start attack
+        GameFacade.Instance.SendEvent<OnStartAttack>();
         
+        _canAttack = false;
+        await UniTask.Delay(TimeSpan.FromSeconds(_weapon.Cd / 2));
+
         //for insurance we reset this attack trigger advance
         _animator.ResetTrigger("Attack");
+
+        //end attack previously for better control sense 
+        GameFacade.Instance.SendEvent<OnEndAttack>();
         
-        await UniTask.Delay(TimeSpan.FromSeconds(_weapon.Cd/2));
+        await UniTask.Delay(TimeSpan.FromSeconds(_weapon.Cd / 2));
         _canAttack = true;
+        
+        //start attack
+       
     }
 
 
@@ -146,11 +155,11 @@ public class WeaponController : MonoBehaviour
         {
             //exit the last equipment
             _weapon?.Exit();
-            
+
             _weapon = playerPalm.transform.Find(scrObj.itemName).GetComponent<IWeapon>();
             _hit = _weapon.Hit;
             _endAttack = _weapon.EndHit;
-            
+
             //init equipment
             _weapon.Init();
         }
@@ -158,11 +167,11 @@ public class WeaponController : MonoBehaviour
         {
             //exit the last equipment
             _weapon?.Exit();
-            
+
             _weapon = playerPalm.transform.Find("Empty_Handed").GetComponent<IWeapon>();
             _hit = _weapon.Hit;
             _endAttack = _weapon.EndHit;
-            
+
             //exit the last equipment
             _weapon?.Init();
         }
@@ -170,12 +179,16 @@ public class WeaponController : MonoBehaviour
 
     public void Hit()
     {
+       
+
         _hit.Invoke();
     }
 
     public void EndAttack()
     {
         _endAttack.Invoke();
+
+       
     }
 
     #endregion

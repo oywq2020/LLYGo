@@ -36,14 +36,17 @@ public class GameLoop : MonoBehaviour
     //provide tool for GamaObject for current scene state
     public void Set(bool senecStateInit)
     {
+        Debug.Log("Set senceStateInit to "+senecStateInit);
         _senecStateInit = senecStateInit;
     }
 
     public async UniTask Setup()
     {
+        Debug.Log("Call for SetUp and _senceStateInit："+_senecStateInit);
         if (_senecStateInit) return;
-
         //await for the completion of current scene state
         await UniTask.WaitUntil(() => _senecStateInit);
+        Debug.Log("SetUp Complete");
+        
     }
 }

@@ -32,6 +32,7 @@ namespace SceneStateRegion
         //called when ever entry this state
         public virtual void StateStart()
         {
+            Debug.Log("SceneStart");
             DefaultRegister();
             //if you want inherit it, you must preserve it at the last line of override method
             //this operation is for synchronizing methods that must execute behind loading  
@@ -53,6 +54,7 @@ namespace SceneStateRegion
 
             //this operation is for synchronizing methods that must execute behind loading  
             GameLoop.Instance.Set(false);
+            Debug.Log("SceneEnd");
         }
 
         protected virtual void DefaultRegister()
