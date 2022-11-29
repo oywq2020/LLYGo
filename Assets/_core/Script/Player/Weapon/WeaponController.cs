@@ -51,18 +51,24 @@ public class WeaponController : MonoBehaviour
         if (_pause) return;
 
         //left mouse is default for normal attack
-        if (Input.GetKey(KeyCode.Mouse0) && _canAttack)
+        if (Input.GetKey(KeyCode.Mouse0))
         {
-            //play
-            _weapon.StartHit();
+            //turn to the camera forward
+            transform.rotation = TurnTo(CameraForward());
+            if (_canAttack)
+            {
+                //play
+                _weapon.StartHit();
 
-            //animator play
-            _animator.SetTrigger("Attack");
-            //enter cd
-            RecoverCd();
+                //animator play
+                _animator.SetTrigger("Attack");
+                //enter cd
+                RecoverCd();
+            }
         }
     }
 
+    
     private void OnDestroy()
     {
         GameFacade.Instance?.UnRegisterEvent<OnShortIdexChanged>(ShortIndexChanged);
@@ -118,7 +124,7 @@ public class WeaponController : MonoBehaviour
     {
         //start attack
         GameFacade.Instance.SendEvent<OnStartAttack>();
-        
+
         _canAttack = false;
         await UniTask.Delay(TimeSpan.FromSeconds(_weapon.Cd / 2));
 
@@ -127,12 +133,11 @@ public class WeaponController : MonoBehaviour
 
         //end attack previously for better control sense 
         GameFacade.Instance.SendEvent<OnEndAttack>();
-        
+
         await UniTask.Delay(TimeSpan.FromSeconds(_weapon.Cd / 2));
         _canAttack = true;
-        
+
         //start attack
-       
     }
 
 
@@ -179,17 +184,28 @@ public class WeaponController : MonoBehaviour
 
     public void Hit()
     {
-       
-
         _hit.Invoke();
     }
 
     public void EndAttack()
     {
         _endAttack.Invoke();
-
-       
     }
 
     #endregion
+
+    Vector3 CameraForward()
+    {
+        var x = this.transform.position.x - Camera.main.transform.position.x;
+        var z = transform.position.z - Camera.main.transform.position.z;
+        return new Vector3(x, 0, z);
+    }
+
+    Quaternion TurnTo(Vector3 cameraDir, float offset = 0)
+    {
+        Quaternion q = Quaternion.identity;
+        q.SetLookRotation(cameraDir);
+        return Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, q.eulerAngles.y + offset, 0),
+            Time.deltaTime * 8);
+    }
 }

@@ -80,6 +80,7 @@ namespace Player
                 float h = Input.GetAxis("Horizontal");
                 float v = Input.GetAxis("Vertical");
 
+                //set threshold
                 if (Mathf.Abs(h) < 0.05f && Mathf.Abs(v) < 0.05f)
                 {
                     h = 0;
