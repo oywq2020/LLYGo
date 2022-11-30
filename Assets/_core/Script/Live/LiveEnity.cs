@@ -13,7 +13,7 @@ namespace _core.Script.Live
         [SerializeField]
         protected float currentHp;
 
-        private bool _isDead = false;
+        protected bool _isDead = false;
 
         private void Start()
         {
@@ -25,7 +25,7 @@ namespace _core.Script.Live
         public virtual void GetHit(float damage)
         {
             currentHp -= damage;
-            OnGetHit();
+            OnGetHit(damage);
             
             if (currentHp<=0)
             {
@@ -42,6 +42,6 @@ namespace _core.Script.Live
         protected abstract void Init();
         protected abstract void OnDead();
 
-        protected abstract void OnGetHit();
+        protected abstract void OnGetHit(float damage);
     }
 }

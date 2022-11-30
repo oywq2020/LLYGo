@@ -1,26 +1,32 @@
 ﻿using Script.Event;
+using UnityEngine;
 
 namespace _core.Script.Live
 {
     public class CharacterLive:LiveEntity
     {
+        private Animator _animator;
         protected override void Init()
         {
-            
+            _animator = GetComponent<Animator>();
         }
 
         protected override void OnDead()
         {
-           
+            //play git hit animation
+            _animator.SetTrigger("Dead");
         }
 
-        protected override void OnGetHit()
+        protected override void OnGetHit(float damage)
         {
             //Update bleed slider via Event
             GameFacade.Instance.SendEvent(new OnCharacterInjured()
             {
-                currentHpPercent = currentHp/wholeHp
+                Damage = damage
             });
+            
+            //play git hit animation
+            _animator.SetTrigger("GetHit");
         }
     }
 }

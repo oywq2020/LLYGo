@@ -131,6 +131,11 @@ namespace _core.Script.FSM
         }
 
 
+        public void Clear()
+        {
+            States.Clear();
+        }
+        
       
         public void Update()
         {

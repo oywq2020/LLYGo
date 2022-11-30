@@ -37,15 +37,7 @@ namespace Script.UI
         {
             await GetComponent<CanvasGroup>().DOFade(0, 0.3f).SetEase(Ease.Linear).ToUniTask();
         }
-
-       // // public void SetUILayer(UILayer layer)
-       //  {
-       //      transform.SetParent(GameObject.Find($"UIRoot/{layer.ToString()}").transform);
-       //
-      
-       //  }
-
-
+        
         public virtual async void Disable()
         {
             Onclose();

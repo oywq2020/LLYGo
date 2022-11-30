@@ -4,6 +4,6 @@
     //call after the bag refreshed 
     public struct OnCharacterInjured
     {
-        public float currentHpPercent;
+        public float Damage;
     }
 }
