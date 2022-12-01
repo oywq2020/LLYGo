@@ -1,4 +1,9 @@
-﻿using Script.Event;
+﻿using System;
+using System.Collections;
+using System.Threading;
+using Cysharp.Threading.Tasks;
+using Script.Event;
+using Script.Facade;
 using UnityEngine;
 
 
@@ -24,6 +29,9 @@ namespace Player
         //the origin variable is for making the character to ground
         private float _currentSpeed = 0.01f;
 
+
+        private CancellationTokenSource _cancelSource;
+
         private void Start()
         {
             //assigning 
@@ -32,39 +40,52 @@ namespace Player
             _viewCamera = Camera.main;
 
             //registering
-            GameFacade.Instance.RegisterEvent<OnStartAttack>(Pause);
-            GameFacade.Instance.RegisterEvent<OnEndAttack>(Continue);
+            GameFacade.Instance.RegisterEvent<OnStartAttack>(e => { Pause(); }).UnRegisterOnDestroy(gameObject);
+            GameFacade.Instance.RegisterEvent<OnEndAttack>(e => { Continue(); }).UnRegisterOnDestroy(gameObject);
+            GameFacade.Instance.RegisterEvent<OnCharacterInjured>(OnInjured).UnRegisterOnDestroy(gameObject);
 
             //register character to GameFacede
-            GameFacade.Instance?.SetCharacter(gameObject);
+            GameFacade.Instance.SetCharacter(gameObject);
         }
 
 
         private void Update()
         {
             if (_updatePause) return;
-
             Movement();
         }
 
         #region Registering
 
         //register it to your relative event
-        void Pause(OnStartAttack e)
+        void Pause()
         {
             _updatePause = true;
         }
 
-        void Continue(OnEndAttack e)
+        void Continue()
         {
             _updatePause = false;
         }
 
-
-        private void OnDestroy()
+        void OnInjured(OnCharacterInjured e)
         {
-            GameFacade.Instance?.UnRegisterEvent<OnStartAttack>(Pause);
-            GameFacade.Instance?.UnRegisterEvent<OnEndAttack>(Continue);
+            if (_cancelSource!=null)
+            {
+                //cancel last task
+                _cancelSource.Cancel();
+                _cancelSource.Dispose();
+            }
+            
+            //
+            _cancelSource = new CancellationTokenSource();
+
+            UniTask.RunOnThreadPool(async () =>
+            {
+                Pause();
+                await UniTask.Delay(TimeSpan.FromSeconds(e.Duration-0.2));
+                Continue();
+            },true,_cancelSource.Token);
         }
 
         #endregion

@@ -5,5 +5,6 @@
     public struct OnCharacterInjured
     {
         public float Damage;
+        public float Duration;
     }
 }

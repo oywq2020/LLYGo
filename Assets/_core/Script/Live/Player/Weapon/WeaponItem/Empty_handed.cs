@@ -26,7 +26,10 @@ namespace Player
 
         public void ApproveAttack()
         {
-            
+            if (Input.GetKey(KeyCode.Mouse0))
+            {
+                Debug.Log("Empty_handed");
+            }
         }
 
         public void Exit()

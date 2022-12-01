@@ -1,4 +1,5 @@
-﻿using Script.Event;
+﻿using _core.Script.Utility.Extension;
+using Script.Event;
 using UnityEngine;
 
 namespace _core.Script.Live
@@ -9,6 +10,8 @@ namespace _core.Script.Live
         protected override void Init()
         {
             _animator = GetComponent<Animator>();
+            
+          
         }
 
         protected override void OnDead()
@@ -22,7 +25,8 @@ namespace _core.Script.Live
             //Update bleed slider via Event
             GameFacade.Instance.SendEvent(new OnCharacterInjured()
             {
-                Damage = damage
+                Damage = damage,
+                Duration = _animator.runtimeAnimatorController.animationClips.GetClip("GetHit").length
             });
             
             //play git hit animation

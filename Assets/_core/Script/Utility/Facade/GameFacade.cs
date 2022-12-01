@@ -78,9 +78,9 @@ public class GameFacade : MonoBehaviour
     }
 
     //provide function of registering event directly
-    public void RegisterEvent<T>(Action<T> action) where T : new()
+    public IUnRegister RegisterEvent<T>(Action<T> action) where T : new()
     {
-        _eventHolder.Register<T>(action);
+       return _eventHolder.Register<T>(action);
     }
 
     public void UnRegisterEvent<T>(Action<T> action) where T : new()

@@ -1,6 +1,7 @@
 ﻿using System;
 using Cinemachine;
 using Script.Event;
+using Script.Facade;
 using UnityEngine;
 
 namespace _core.Script.Player
@@ -19,8 +20,9 @@ namespace _core.Script.Player
             _originX = _cinemachine.m_XAxis.m_MaxSpeed;
             _originY = _cinemachine.m_YAxis.m_MaxSpeed;
 
-            GameFacade.Instance.RegisterEvent<OnMouseEntryGUI>(StartLimiter);
-            GameFacade.Instance.RegisterEvent<OnMouseExitGUI>(StopLimiter);
+            //register event
+            GameFacade.Instance.RegisterEvent<OnMouseEntryGUI>(StartLimiter).UnRegisterOnDestroy(gameObject);
+            GameFacade.Instance.RegisterEvent<OnMouseExitGUI>(StopLimiter).UnRegisterOnDestroy(gameObject);
         }
 
 
@@ -34,12 +36,6 @@ namespace _core.Script.Player
         {
             _cinemachine.m_XAxis.m_MaxSpeed = _originX;
             _cinemachine.m_YAxis.m_MaxSpeed = _originY;
-        }
-
-        private void OnDestroy()
-        {
-            GameFacade.Instance?.UnRegisterEvent<OnMouseEntryGUI>(StartLimiter);
-            GameFacade.Instance?.UnRegisterEvent<OnMouseExitGUI>(StopLimiter);
         }
     }
 }
