@@ -18,19 +18,27 @@ MonoBehaviour:
   m_GUID: 7f72b08f27eabff4a9e2bd18583f12a1
   m_SerializeEntries:
   - m_GUID: 3f0638835b64a2040bf45880ef18864d
-    m_Address: Assets/_core/ui/1.png
+    m_Address: 1
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: c40fa26c102c64548b2c9132b15f0fd3
-    m_Address: Assets/_core/ui/BagImg.png
+    m_Address: BagImg
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: ae3079121240ce54fa8b9c15cdcc035d
-    m_Address: Assets/_core/ui/Loading.png
+    m_Address: Loading
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: d063499cc8e1fc041a41e542efe2201b
-    m_Address: Assets/_core/ui/jlj.jpg
+    m_Address: jlj
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f26d21f6fe2bf645b95bcfaa10dfbf7
+    m_Address: 3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3317e2a1c825f7a43a6cddd0c6db125f
+    m_Address: 18
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0

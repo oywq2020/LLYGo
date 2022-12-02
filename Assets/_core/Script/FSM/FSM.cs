@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace _core.Script.FSM
 {
@@ -102,8 +103,10 @@ namespace _core.Script.FSM
 
         public void ChangeState(T t)
         {
-            if (States.TryGetValue(t, out IState state))
+            if (!_currentStateId.Equals(t)&&States.TryGetValue(t, out IState state))
             {
+                Debug.Log("CurrentState:"+_currentStateId +"to" +" TargetState:"+t);
+                
                 if (CurrentState != null)
                 {
                     CurrentState.Exit();

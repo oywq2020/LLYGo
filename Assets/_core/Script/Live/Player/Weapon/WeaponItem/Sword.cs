@@ -1,14 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
+using _core.Script.Enemy;
 using _core.Script.Live;
 using Cysharp.Threading.Tasks;
+using HighlightPlus;
+using Script.Event;
 using UnityEngine;
 
 namespace Player
 {
     public class Sword : MonoBehaviour, IWeapon
     {
-        public float cd;
+        private float cd;
+
+        [SerializeField]
+        private float skillCd = 5;
+
+        [SerializeField] private float duringTime = 3;
+
+        private bool _canSkill = true;
+
+        private  HighlightEffect _highlightEffect;
 
         public float Cd
         {
@@ -16,69 +27,121 @@ namespace Player
         }
 
         public float damage = 50;
+        private TriggerKit _triggerKit;
+        private bool _canAttack = true;
 
-        public Transform swordHead;
-        public Transform swordTail;
-
-        private bool _startDamage = false;
-
-        private List<GameObject> _hitGBList = new List<GameObject>();
-
-
-        public async void StartHit()
+        private int _attackCount;
+        
+        public void OnInit()
         {
-            await UniTask.Delay(TimeSpan.FromMilliseconds(10));
-            _startDamage = true;
+            Debug.Log("Init Sword");
+            
+            _triggerKit = GetComponent<TriggerKit>();
+            _highlightEffect = GetComponentInChildren<HighlightEffect>();
+
+            _highlightEffect.highlighted = false;
         }
 
-        public void Hit()
+        
+        
+        //the weapon is get the Approve to execute its operation
+        public void ApproveAttack(Animator animator,Action duringAttack)
         {
-        }
-
-
-        private void FixedUpdate()
-        {
-            if (!_startDamage) return;
-            if (Physics.Linecast(swordHead.position, swordTail.position, out RaycastHit raycastHit))
+            if (Input.GetKey(KeyCode.Mouse0))
             {
-                var colliderGameObject = raycastHit.collider.gameObject;
-                if (!_hitGBList.Contains(colliderGameObject) &&
-                    colliderGameObject.CompareTag("Enemy"))
+                if (_canAttack)
                 {
-                    //hit without repeat 
-                    colliderGameObject.GetComponent<IDamageable>().GetHit(damage);
-                    _hitGBList.Add(colliderGameObject);
+                    StartHit(animator);
                 }
+                
+                duringAttack.Invoke();
             }
+            else
+            {
+                //prevent mistaken link attack
+                animator.SetBool("Attack",false);
+            }
+
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                if (!_canAttack) return;
+                
+                //enable effect 
+                _highlightEffect.highlighted = true;
+                //double the damage
+                damage *= 2;
+                
+                //trigger event
+                GameFacade.Instance.SendEvent(new OnReleaseSkill()
+                {
+                    SkillCd = skillCd
+                });
+
+                EntrySkillCd();
+            }
+            
         }
 
+        
 
-        public void EndHit()
+        private async void StartHit(Animator animator)
         {
-            _startDamage = false;
-
-            //clear list of gameobject
-            _hitGBList.Clear();
+            _canAttack = false;
+            animator.SetBool("Attack",true);
+            BeforeAttack(animator);
+            GameFacade.Instance.SendEvent<OnStartAttack>();
+             await UniTask.Delay(TimeSpan.FromSeconds(cd*4/5));
+            _triggerKit.StopListening();
+            GameFacade.Instance.SendEvent<OnEndAttack>();
+            _canAttack = true;
         }
 
-
-        public void Init()
+        void BeforeAttack(Animator animator )
         {
+            //start attack check
+            _triggerKit.StartListening(gb =>
+            {
+                gb.GetComponent<IDamageable>().GetHit(damage);
+            },"Enemy");
+            
+            //update current animation clip length to cd
+            
+            cd = animator.GetNextAnimatorStateInfo(0).length;
         }
-
-        public void ApproveAttack()
+        
+        
+        public void OnHit()
         {
             
         }
 
-        public void Exit()
+        public void EndAttack()
         {
+            _triggerKit.StopListening();
         }
 
-        private void OnDrawGizmos()
+
+
+        public void OnExit()
         {
-            Gizmos.color = Color.red;
-            Gizmos.DrawLine(swordHead.position, swordTail.position);
+            //undo the effect for skill
+            _highlightEffect.highlighted = false;
         }
+
+        private async void EntrySkillCd()
+        {
+            _canSkill = false;
+            await UniTask.Delay(TimeSpan.FromSeconds(duringTime));
+            
+            //undo the effect for skill
+            _highlightEffect.highlighted = false;
+            
+            //undo the augment damage
+            damage /= 2;
+            
+            await UniTask.Delay(TimeSpan.FromSeconds(skillCd-duringTime));
+            _canSkill = true;
+        }
+        
     }
 }

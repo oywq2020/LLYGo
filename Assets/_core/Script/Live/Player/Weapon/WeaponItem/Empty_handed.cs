@@ -1,5 +1,9 @@
-﻿using System.Threading;
+﻿using System;
+using System.Threading;
 using _core.Script.Live;
+using _core.Script.Utility.Extension;
+using Cysharp.Threading.Tasks;
+using Script.Event;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -20,31 +24,51 @@ namespace Player
             get => cd;
         }
 
-        public void Init()
-        {
-        }
-
-        public void ApproveAttack()
-        {
-            if (Input.GetKey(KeyCode.Mouse0))
-            {
-                Debug.Log("Empty_handed");
-            }
-        }
-
-        public void Exit()
-        {
-        }
+        private bool _canAttack = true;
 
         #endregion
 
-        public void StartHit()
+        public void OnInit()
         {
-            //card frame
-            Thread.Sleep(50);
         }
 
-        public void Hit()
+        // ReSharper disable Unity.PerformanceAnalysis
+        public void ApproveAttack(Animator animator,Action duringAttack)
+        {
+            if (Input.GetKey(KeyCode.Mouse0))
+            {
+                if (_canAttack)
+                {
+                    StartHit(animator);
+                }
+                
+                duringAttack.Invoke();
+            }
+        }
+
+
+        private async void StartHit(Animator animator)
+        {
+            _canAttack = false;
+            
+            //start attack
+            GameFacade.Instance.SendEvent<OnStartAttack>();
+            
+            animator.SetTrigger("Attack");
+            await UniTask.Delay(TimeSpan.FromSeconds(cd*3/4));
+            
+            GameFacade.Instance.SendEvent<OnEndAttack>();
+
+            _canAttack = true;
+        }
+
+
+        public void OnExit()
+        {
+            
+            
+        }
+        public void OnHit()
         {
             Debug.Log("Handed Hit");
             var overlapSphere = Physics.OverlapSphere(damageTransform.position, damageRadius);
@@ -58,7 +82,7 @@ namespace Player
             }
         }
 
-        public void EndHit()
+        public void EndAttack()
         {
         }
 
@@ -66,6 +90,21 @@ namespace Player
         {
             Gizmos.color = Color.blue;
             Gizmos.DrawWireSphere(damageTransform.position, damageRadius);
+        }
+        
+        Vector3 CameraForward()
+        {
+            var x = this.transform.position.x - Camera.main.transform.position.x;
+            var z = transform.position.z - Camera.main.transform.position.z;
+            return new Vector3(x, 0, z);
+        }
+
+        Quaternion TurnTo(Vector3 cameraDir, float offset = 0)
+        {
+            Quaternion q = Quaternion.identity;
+            q.SetLookRotation(cameraDir);
+            return Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, q.eulerAngles.y + offset, 0),
+                Time.deltaTime * 8);
         }
     }
 }

@@ -80,6 +80,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _Glow: 1
     - _IndirectLightMultiplier: 1
     - _IsFace: 0
     - _MainLightIgnoreCelShade: 0

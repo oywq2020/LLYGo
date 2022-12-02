@@ -17,11 +17,10 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 99550066a040e26478d933ef604b0143
   m_SerializeEntries:
-  - m_GUID: fdf3453280e9d9546a8cd251a9888a9a
+  - m_GUID: a8acfc4724ab59a49813f662ae444423
     m_Address: sword
     m_ReadOnly: 0
-    m_SerializedLabels:
-    - Weapon
+    m_SerializedLabels: []
   - m_GUID: dfbb91fb481fb574e997fb02b5593694
     m_Address: Magic
     m_ReadOnly: 0

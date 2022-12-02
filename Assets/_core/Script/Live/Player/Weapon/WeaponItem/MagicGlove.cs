@@ -1,6 +1,7 @@
 ﻿using System;
 using Cysharp.Threading.Tasks;
 using Script.Abstract;
+using Script.Event;
 using UnityEngine;
 
 namespace Player
@@ -13,13 +14,15 @@ namespace Player
 
         private GameObject _portalHolder;
 
+        private bool _canAttack = true;
+
         private async UniTask Start()
         {
             await GameLoop.Instance.Setup();
             _objectPool = GameFacade.Instance.GetInstance<IGameObjectPool>();
         }
 
-        public async void Init()
+        public async void OnInit()
         {
             //await start
             await Start();
@@ -29,22 +32,44 @@ namespace Player
             _portalHolder.transform.localPosition = Vector3.zero;
         }
 
-        public void ApproveAttack()
+        public void ApproveAttack(Animator animator,Action duringAttack)
         {
-            
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                if (_canAttack)
+                {
+                    StartHit(animator);
+                }
+             
+                duringAttack.Invoke();
+            }
+           
         }
 
-        public void Exit()
+        public void OnExit()
         {
             //unload effect 
             _objectPool.Enqueue(_portalHolder);
         }
 
-        public void StartHit()
+        private async void StartHit(Animator animator)
         {
+            _canAttack = false;
+
+            //start attack
+            GameFacade.Instance.SendEvent<OnStartAttack>();
+            
+            animator.SetTrigger("Attack");
+            
+            await UniTask.Delay(TimeSpan.FromSeconds(Cd * 3 / 4));
+
+            //start attack
+            GameFacade.Instance.SendEvent<OnEndAttack>();
+            _canAttack = true;
+
         }
 
-        public void Hit()
+        public void OnHit()
         {
             var dequeue = _objectPool.Dequeue("LightningRotateBall");
 
@@ -53,7 +78,7 @@ namespace Player
             dequeue.transform.rotation = characterBodyMapper.firePoint.rotation;
         }
 
-        public void EndHit()
+        public void EndAttack()
         {
         }
     }

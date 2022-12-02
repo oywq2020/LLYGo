@@ -12,7 +12,7 @@ public class ResourceFactory:IAssetFactory
     private readonly Dictionary<string,  Object> _assetCache = new Dictionary<string, Object>();
     
     //commonly loading
-    public T LoadAsset<T>(string key) where T : class, new()
+    public T LoadAsset<T>(string key) where T : class
     {
         if (_assetCache.TryGetValue(key, out Object obj))
         {

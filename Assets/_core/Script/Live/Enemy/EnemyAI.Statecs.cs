@@ -41,16 +41,18 @@ namespace _core.Script.Enemy
             _fsm.State(State.Idle)
                 .OnEnter(() =>
                 {
-                    _agent.isStopped = true;
-
-                    //set idle animator
-                    _animator.SetTrigger("Idle");
-                }).OnFixedUpdate(() =>
+                    _animator.SetBool("Idle",true);
+                })
+                .OnFixedUpdate(() =>
                 {
                     if (destination < viewRange)
                     {
                         _fsm.ChangeState(State.Walk);
                     }
+                })
+                .OnExit(() =>
+                {
+                    _animator.SetBool("Idle",false);
                 });
         }
         //Find Player
@@ -58,11 +60,13 @@ namespace _core.Script.Enemy
         //Walk state
         private void Walk()
         {
-            bool myLock = true;
-
             _fsm.State(State.Walk)
-                .OnEnter(() => { })
-                .OnFixedUpdate(async () =>
+                .OnEnter(() =>
+                {
+                    _agent.isStopped = false;
+                    _animator.SetBool("Walk",true);
+                })
+                .OnFixedUpdate(() =>
                 {
                     //the second attack way
                     if (destination <= attack2Range && destination > attack1Range)
@@ -84,23 +88,14 @@ namespace _core.Script.Enemy
                         _fsm.ChangeState(State.Idle);
                         return;
                     }
-
-
+                    
                     //track player
                     _agent.SetDestination(_playerTransForm.position);
-
-
-                    if (myLock)
-                    {
-                        myLock = false;
-                        _animator.SetTrigger("Walk");
-                        _agent.isStopped = false;
-
-                        await UniTask.Delay(TimeSpan.FromSeconds(GetClip("Walk").length));
-
-                        _agent.isStopped = true;
-                        myLock = true;
-                    }
+                    
+                }).OnExit(() =>
+                {
+                    _agent.isStopped = true;
+                    _animator.SetBool("Walk",false);
                 });
         }
 
@@ -114,9 +109,12 @@ namespace _core.Script.Enemy
             _fsm.State(State.Attack1)
                 .OnEnter(async () =>
                 {
-                    _animator.SetTrigger("Attack1");
-                    await UniTask.Delay(TimeSpan.FromSeconds(GetClip("Attack1").length));
+                    _animator.SetBool("Attack1",true);
+                    
+                    Debug.Log("wait:"+GetClip("Attack1").length);
+                    await UniTask.Delay(TimeSpan.FromSeconds(GetClip("Attack1").length+0.5f));
 
+                    _animator.SetBool("Attack1",false);
                     _fsm.ChangeState(State.Idle);
                 })
                 .OnFixedUpdate(async () =>
@@ -134,15 +132,20 @@ namespace _core.Script.Enemy
             _fsm.State(State.Attack2)
                 .OnEnter(async () =>
                 {
-                    _animator.SetTrigger("Attack2");
+                    _animator.SetBool("Attack2",true);
                     await UniTask.Delay(TimeSpan.FromSeconds(GetClip("Attack2").length));
 
+                    _animator.SetBool("Attack2",false);
                     _fsm.ChangeState(State.Idle);
                 })
                 .OnFixedUpdate(async () =>
                 {
                     //turn to player by interpolation
                     transform.rotation = TurnTo(_playerTransForm.position - transform.position);
+                })
+                .OnExit(() =>
+                {
+                    _animator.SetBool("Attack2",false);
                 });
         }
 
@@ -157,7 +160,7 @@ namespace _core.Script.Enemy
                 {
                     _animator.SetTrigger("GetHit");
                     await UniTask.Delay(TimeSpan.FromSeconds(GetClip("GetHit").length));
-
+                    
                     _fsm.ChangeState(State.Idle);
                 });
         }

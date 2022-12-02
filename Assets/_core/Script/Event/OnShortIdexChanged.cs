@@ -2,7 +2,7 @@
 
 namespace Script.Event
 {
-    public struct OnShortIdexChanged
+    public struct OnShortIndexChanged
     {
         public int Index;
     }

@@ -6,6 +6,7 @@ using Cysharp.Threading.Tasks;
 using Player;
 using PlayerRegion;
 using Script.Event;
+using Script.Facade;
 using Script.UI;
 using UnityEditor.Animations;
 using UnityEngine;
@@ -25,6 +26,8 @@ public class WeaponController : MonoBehaviour
     private GameObject _weaponHolder;
     private AnimatorController _aniCtrlHolder;
 
+    private GameObject _lastWeapon;
+
     //private struct variable
     private bool _canAttack = true;
     private int _index; //index for selecting weapon
@@ -41,28 +44,29 @@ public class WeaponController : MonoBehaviour
         _assetFactory = GameFacade.Instance.GetInstance<IAssetFactory>();
 
         //register event
-        GameFacade.Instance.RegisterEvent<OnShortIdexChanged>(ShortIndexChanged);
-        GameFacade.Instance.RegisterEvent<OnMouseEntryGUI>(Pause);
-        GameFacade.Instance.RegisterEvent<OnMouseExitGUI>(Continue);
+        GameFacade.Instance.RegisterEvent<OnShortIndexChanged>(ShortIndexChanged).UnRegisterOnDestroy(gameObject);
+        GameFacade.Instance.RegisterEvent<OnMouseEntryGUI>(Pause).UnRegisterOnDestroy(gameObject);
+        GameFacade.Instance.RegisterEvent<OnMouseExitGUI>(Continue).UnRegisterOnDestroy(gameObject);
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (_pause) return;
 
         //approve this weapon to listening and attack
-        _weapon?.ApproveAttack();
+        _weapon?.ApproveAttack(_animator, () =>
+        {
+            //turn to camera forward
+            transform.rotation = TurnTo(CameraForward());
+        });
     }
 
 
     private void OnDestroy()
     {
-        GameFacade.Instance?.UnRegisterEvent<OnShortIdexChanged>(ShortIndexChanged);
-        GameFacade.Instance?.UnRegisterEvent<OnMouseEntryGUI>(Pause);
-        GameFacade.Instance?.UnRegisterEvent<OnMouseExitGUI>(Continue);
     }
 
-    void ShortIndexChanged(OnShortIdexChanged e)
+    void ShortIndexChanged(OnShortIndexChanged e)
     {
         var currentItem = CurrentPlayer.Instance.GetBag().itemList[e.Index];
 
@@ -88,11 +92,13 @@ public class WeaponController : MonoBehaviour
             }
 
             //release other item before
-            if (playerPalm.childCount > 2)
+            if (_lastWeapon&&!_lastWeapon.Equals(_weaponHolder))
             {
-                //character's hand only can hold one item;
-                Addressables.Release(playerPalm.GetChild(1).gameObject);
+               //exist weapon switch then release lastWeapon
+               Addressables.Release(_lastWeapon);
             }
+
+            _lastWeapon = _weaponHolder;
         }
         else
         {
@@ -145,26 +151,26 @@ public class WeaponController : MonoBehaviour
         if (scrObj)
         {
             //exit the last equipment
-            _weapon?.Exit();
+            _weapon?.OnExit();
 
-            _weapon = playerPalm.transform.Find(scrObj.itemName).GetComponent<IWeapon>();
-            _hit = _weapon.Hit;
-            _endAttack = _weapon.EndHit;
+            _weapon = _weaponHolder.GetComponent<IWeapon>();
+            _hit = _weapon.OnHit;
+            _endAttack = _weapon.EndAttack;
 
             //init equipment
-            _weapon.Init();
+            _weapon.OnInit();
         }
         else
         {
             //exit the last equipment
-            _weapon?.Exit();
+            _weapon?.OnExit();
 
             _weapon = playerPalm.transform.Find("Empty_Handed").GetComponent<IWeapon>();
-            _hit = _weapon.Hit;
-            _endAttack = _weapon.EndHit;
+            _hit = _weapon.OnHit;
+            _endAttack = _weapon.EndAttack;
 
             //exit the last equipment
-            _weapon?.Init();
+            _weapon?.OnInit();
         }
     }
 

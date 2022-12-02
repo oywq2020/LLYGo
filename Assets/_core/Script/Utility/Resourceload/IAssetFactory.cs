@@ -5,7 +5,7 @@ using UnityEngine;
 public interface IAssetFactory
 {
    //load common resource
-   T LoadAsset<T>(string key) where T : class, new();
+   T LoadAsset<T>(string key) where T : class;
    
    //load and Instantiate GameObject
    GameObject InstantiateGameObject(string key,Transform parent = null);

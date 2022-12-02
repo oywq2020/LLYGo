@@ -55,7 +55,7 @@ namespace _core.Script.Bag
             transform.GetChild(index).GetComponent<Image>().color = _selectedColor;
             
             //send Event
-            GameFacade.Instance.SendEvent(new OnShortIdexChanged(){Index = _shortBagIndex});
+            GameFacade.Instance.SendEvent(new OnShortIndexChanged(){Index = _shortBagIndex});
           
         }
 

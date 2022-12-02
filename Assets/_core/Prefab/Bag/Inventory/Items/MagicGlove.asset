@@ -31,3 +31,8 @@ MonoBehaviour:
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
+  skillSprite:
+    m_AssetGUID: 3317e2a1c825f7a43a6cddd0c6db125f
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

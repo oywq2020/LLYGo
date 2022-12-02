@@ -12,5 +12,10 @@ namespace _core.Script.Bag.ScriptableObj.Item
         public AssetReferenceGameObject swordGameObjectRf;
 
         public AssetReference aniCtrl;
+        
+        //  sprite of  Skills of weapon, there only define one due to limited time
+        public AssetReferenceSprite skillSprite;
+
+
     }
 }

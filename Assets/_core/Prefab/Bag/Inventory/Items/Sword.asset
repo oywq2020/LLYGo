@@ -22,12 +22,17 @@ MonoBehaviour:
   isEquip: 1
   info: this is a sword
   swordGameObjectRf:
-    m_AssetGUID: fdf3453280e9d9546a8cd251a9888a9a
+    m_AssetGUID: a8acfc4724ab59a49813f662ae444423
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
   aniCtrl:
     m_AssetGUID: 08f4c8f0260eda44b979c1fe26a21b3e
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  skillSprite:
+    m_AssetGUID: 2f26d21f6fe2bf645b95bcfaa10dfbf7
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Player
 {
@@ -9,17 +10,17 @@ namespace Player
     public abstract class AbstractWeapon : MonoBehaviour,IWeapon
     {
         public float Cd { get; }
-        public void Init()
+        public void OnInit()
         {
            
         }
 
-        public void ApproveAttack()
+        public void ApproveAttack(Animator animator,Action duringAttack)
         {
             
         }
 
-        public void Exit()
+        public void OnExit()
         {
           
         }
@@ -29,12 +30,12 @@ namespace Player
            
         }
 
-        public void Hit()
+        public void OnHit()
         {
            
         }
 
-        public void EndHit()
+        public void EndAttack()
         {
             
         }

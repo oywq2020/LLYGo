@@ -35,19 +35,20 @@ namespace _core.Script.Enemy
             _recall = null;
             _targetTag = "";
 
-            _collider.enabled = false;
+            if (_collider!=null)
+            {
+                _collider.enabled = false;
+            }
         }
-        
-        
-        
-        
         private void OnTriggerEnter(Collider other)
         {
-            Debug.Log("TriggerEnter");
             if (_targetTag!=""&&other.gameObject.CompareTag(_targetTag))
             {
                 _recall?.Invoke(other.gameObject);
             }
         }
+        
+        
+        
     }
 }

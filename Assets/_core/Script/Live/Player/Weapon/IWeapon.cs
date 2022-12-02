@@ -1,4 +1,5 @@
 ﻿using System;
+using UnityEngine;
 
 namespace Player
 {
@@ -6,13 +7,10 @@ namespace Player
     {
         float Cd { get; }
 
-        void Init();
-
-        void ApproveAttack();
-        void Exit();
-
-        void StartHit();
-        void Hit();
-        void EndHit();
+        void OnInit();
+        void ApproveAttack(Animator animator,Action duringAttack);
+        void OnExit();
+        void OnHit();
+        void EndAttack();
     }
 }
