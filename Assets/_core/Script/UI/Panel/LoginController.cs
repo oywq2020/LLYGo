@@ -40,13 +40,6 @@ public class LoginController : AbstractUIPanel
         //assign
         _uIkit = GameFacade.Instance.GetInstance<IUIkit>();
         
-        Debug.Log("OnOpen");
-
-        if (_isRememberPassword)
-        {
-          
-        }
-        
     }
 
     protected override void Onclose()
@@ -77,7 +70,7 @@ public class LoginController : AbstractUIPanel
                     
 
 
-                    GameLoop.Instance.Controller.SetState(new MainState(GameLoop.Instance.Controller)).Forget();
+                    GameLoop.Instance.Controller.SetState(new MenuState(GameLoop.Instance.Controller),false).Forget();
 
 
                     if (_isRememberPassword)

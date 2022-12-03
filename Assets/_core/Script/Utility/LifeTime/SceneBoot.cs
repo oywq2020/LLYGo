@@ -14,7 +14,7 @@ public class SceneBoot : MonoBehaviour
 {
     public string stateName ;
 
-    private void Start()
+    private void Awake()
     {
         if (stateName!="")
         {
@@ -23,5 +23,7 @@ public class SceneBoot : MonoBehaviour
             var instance = Activator.CreateInstance(type,GameLoop.Instance.Controller)as AbstractState;
             GameLoop.Instance.Controller.SetState(instance,false,true).Forget();
         }
+        Debug.Log("boot awake");
     }
+    
 }

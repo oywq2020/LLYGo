@@ -27,6 +27,7 @@ namespace Script.UI
         public GameObject OpenPanel(string key,UILayer layer = UILayer.Common,bool canDuplicate = false)
         {
 
+            Debug.Log("Entry OpenPanel");
             GameObject gameObject;
             if (!canDuplicate)
             {
@@ -43,7 +44,10 @@ namespace Script.UI
                 }
                 else
                 {
+                    Debug.Log("Before load");
                      gameObject = _gameObjectPool.Dequeue(key,LayerAdaptor.GetTransform(layer));
+                     Debug.Log("End load");
+                     
                     _openedUiPanel.Add(key,gameObject);
                 }
             }

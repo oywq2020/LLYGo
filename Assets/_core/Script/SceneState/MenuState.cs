@@ -1,15 +1,24 @@
-﻿namespace SceneStateRegion
+﻿using Script.UI;
+using UnityEngine;
+
+namespace SceneStateRegion
 {
     public class MenuState:AbstractState
     {
+        private IUIkit _uiKit;
         public MenuState(SceneStateController stateController) : base("Menu", stateController)
         {
         }
 
         public override void StateStart()
         {
-            //todo something
+            Debug.Log("MenuSceneStart");
+            _uiKit =GameFacade.Instance.GetInstance<IUIkit>();
+            Debug.Log("Uikit Open");
             
+            _uiKit.OpenPanel("MenuPanel");
+            
+            Debug.Log("Panel Open");
             
             base.StateStart();
         }
