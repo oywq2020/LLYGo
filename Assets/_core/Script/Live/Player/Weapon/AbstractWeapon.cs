@@ -30,7 +30,7 @@ namespace Player
            
         }
 
-        public void OnHit()
+        public void OnHit(int attackIndex)
         {
            
         }

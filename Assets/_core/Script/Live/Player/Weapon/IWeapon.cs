@@ -10,7 +10,7 @@ namespace Player
         void OnInit();
         void ApproveAttack(Animator animator,Action duringAttack);
         void OnExit();
-        void OnHit();
+        void OnHit(int attackIndex);
         void EndAttack();
     }
 }

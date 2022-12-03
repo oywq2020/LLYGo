@@ -12,12 +12,16 @@ using UnityEngine.UI;
 
 public class LoginController : AbstractUIPanel
 {
+    
+    public GameFacade accountEntity;
+    
     private InputField _nameInput;
     private InputField _passwordInput;
+    private Toggle _rememberToggle;
 
     private IUIkit _uIkit;
 
-    public GameFacade accountEntity;
+    private bool _isRememberPassword = true;
     
     public override void OnOpen()
     {
@@ -28,11 +32,21 @@ public class LoginController : AbstractUIPanel
         //register button event
         transform.Find("LoginBtn").GetComponent<Button>().onClick.AddListener(EngageLogin);
         transform.Find("EnrollBtn").GetComponent<Button>().onClick.AddListener(Enroll);
+        
+        ToggleInit();
+
+        InputFieldInit();
 
         //assign
         _uIkit = GameFacade.Instance.GetInstance<IUIkit>();
         
         Debug.Log("OnOpen");
+
+        if (_isRememberPassword)
+        {
+          
+        }
+        
     }
 
     protected override void Onclose()
@@ -59,11 +73,22 @@ public class LoginController : AbstractUIPanel
                         
                     }
                     
-                    var account = GameFacade.Instantiate(accountEntity);
+                  //  var account = GameFacade.Instantiate(accountEntity);
                     
 
 
                     GameLoop.Instance.Controller.SetState(new MainState(GameLoop.Instance.Controller)).Forget();
+
+
+                    if (_isRememberPassword)
+                    {
+                        //record the last account
+                        PlayerPrefs.SetString("Account",myName);
+                        //record the password
+                        PlayerPrefs.SetString("Password",myPassword);
+                        PlayerPrefs.Save();
+                    }
+                   
                 }
                 else
                 {
@@ -88,5 +113,55 @@ public class LoginController : AbstractUIPanel
     void Enroll()
     {
         _uIkit.OpenPanel("Enroll");
+    }
+
+    void ToggleInit()
+    {
+        var toggle = transform.Find("RememberToggle").GetComponent<Toggle>();
+
+        //register listening event
+        toggle.onValueChanged.AddListener(e =>
+        {
+            if (e)
+            {
+                _isRememberPassword = true;
+                PlayerPrefs.SetInt("IsRemember",1);
+            }
+            else
+            {
+                _isRememberPassword = false;
+                PlayerPrefs.SetInt("IsRemember",-1);
+                
+                //clear the store of password
+                PlayerPrefs.SetString("Password","");
+                PlayerPrefs.Save();
+            }
+           
+        });
+        
+        
+        //init toggle
+        var flag = PlayerPrefs.GetInt("IsRemember");
+        if (flag!=0)
+        {
+            if (flag==1)
+            {
+                toggle.isOn = true;
+            }else if (flag == -1)
+            {
+                toggle.isOn = false;
+            }
+        }
+    }
+
+    void InputFieldInit()
+    {
+        //remember account by default
+        _nameInput.text = PlayerPrefs.GetString("Account");
+        
+        if (_isRememberPassword)
+        {
+            _passwordInput.text = PlayerPrefs.GetString("Password");
+        }
     }
 }

@@ -68,7 +68,7 @@ namespace Player
             
             
         }
-        public void OnHit()
+        public void OnHit(int attackIndex)
         {
             Debug.Log("Handed Hit");
             var overlapSphere = Physics.OverlapSphere(damageTransform.position, damageRadius);

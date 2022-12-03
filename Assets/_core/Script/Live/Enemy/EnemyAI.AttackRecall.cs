@@ -27,7 +27,6 @@ namespace _core.Script.Enemy
         {
             attack2GB.GetComponent<TriggerKit>().StartListening(gb =>
             {
-                Debug.Log("Cause damage2");
                 gb.GetComponent<IDamageable>().GetHit(attack2Damage);
             },"Player");
         }

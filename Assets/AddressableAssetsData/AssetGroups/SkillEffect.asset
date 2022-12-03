@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
   m_Name: SkillEffect
   m_EditorClassIdentifier: 
-  m_GroupName: Packed Assets
+  m_GroupName: SkillEffect
   m_Data:
     m_SerializedData: []
   m_GUID: 7f06bb7b9c81b4844982b5e607fbc448

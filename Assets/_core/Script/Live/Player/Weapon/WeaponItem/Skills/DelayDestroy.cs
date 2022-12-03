@@ -1,18 +1,19 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using Script.Abstract;
+using Script.AssetFactory;
 
-public class DelayDestroy : MonoBehaviour
+public class DelayDestroy : PoolizeGBDefault
 {
     public float delay = 3;
+
     // Start is called before the first frame update
-    void Start()
+    public override void Init()
     {
-        Invoke("DestroyEffect",delay);
+        base.Init();
+        Invoke("DestroyEffect", delay);
     }
 
     void DestroyEffect()
     {
-        Destroy(gameObject);
+        GameFacade.Instance.GetInstance<IGameObjectPool>().Enqueue(gameObject);
     }
 }

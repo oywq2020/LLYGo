@@ -11,7 +11,7 @@ using UnityEngine.UI;
 
 public class EnrollController : AbstractUIPanel
 {
-    private InputField _nameInput;
+    private InputField _accountInput;
     private InputField _passwordInput;
     private Dropdown _sexDropdown;
     private Dropdown _bornYearDropdown;
@@ -26,7 +26,7 @@ public class EnrollController : AbstractUIPanel
         _uIkit = GameFacade.Instance.GetInstance<IUIkit>();
         
         //get input
-        _nameInput = transform.Find("InputName").GetComponent<InputField>();
+        _accountInput = transform.Find("InputAccount").GetComponent<InputField>();
         _passwordInput = transform.Find("InputPassword").GetComponent<InputField>();
         _sexDropdown = transform.Find("SexDropdown").GetComponent<Dropdown>();
         _bornYearDropdown = transform.Find("BornYearDropdown").GetComponent<Dropdown>();
@@ -48,7 +48,7 @@ public class EnrollController : AbstractUIPanel
     void Enroll()
     {
         //get input 
-        var myAccount = _nameInput.text;
+        var myAccount = _accountInput.text;
         var myPassword = _passwordInput.text;
         var mySex = _sexDropdown.captionText.text;
         var myBornYear = _bornYearDropdown.captionText.text;
@@ -86,7 +86,7 @@ public class EnrollController : AbstractUIPanel
 
     void RegisterInputCheckEvent()
     {
-        _nameInput.onValueChanged.AddListener(value =>
+        _accountInput.onValueChanged.AddListener(value =>
         {
             var tip = transform.Find("InputName/tip").gameObject;
             //dynamically match this 

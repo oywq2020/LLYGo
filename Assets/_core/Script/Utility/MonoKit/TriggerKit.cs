@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using UnityEditorInternal;
 using UnityEngine;
 
 namespace _core.Script.Enemy
@@ -12,6 +14,9 @@ namespace _core.Script.Enemy
         private Collider _collider;
 
         private string _targetTag;
+
+        //to prevent the duplicate cause damage
+        private List<Collider> _colliders = new  List<Collider>();
 
         private Action<GameObject> _recall;
         
@@ -28,6 +33,8 @@ namespace _core.Script.Enemy
             _targetTag = myTag;
             
             _collider.enabled = true;
+            
+            _colliders.Clear();
         }
 
         public void StopListening()
@@ -39,12 +46,15 @@ namespace _core.Script.Enemy
             {
                 _collider.enabled = false;
             }
+            
+            _colliders.Clear();
         }
         private void OnTriggerEnter(Collider other)
         {
-            if (_targetTag!=""&&other.gameObject.CompareTag(_targetTag))
+            if (!_colliders.Contains(other)&&_targetTag!=""&&other.gameObject.CompareTag(_targetTag))
             {
                 _recall?.Invoke(other.gameObject);
+                _colliders.Add(other);
             }
         }
         

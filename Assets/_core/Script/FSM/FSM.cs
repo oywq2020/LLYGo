@@ -105,8 +105,6 @@ namespace _core.Script.FSM
         {
             if (!_currentStateId.Equals(t)&&States.TryGetValue(t, out IState state))
             {
-                Debug.Log("CurrentState:"+_currentStateId +"to" +" TargetState:"+t);
-                
                 if (CurrentState != null)
                 {
                     CurrentState.Exit();

@@ -69,7 +69,7 @@ namespace Player
 
         }
 
-        public void OnHit()
+        public void OnHit(int attackIndex)
         {
             var dequeue = _objectPool.Dequeue("LightningRotateBall");
 

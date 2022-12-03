@@ -32,7 +32,12 @@ public class SkewText : MonoBehaviour
     {
         CachedTextComponent.ForceMeshUpdate();
         TMP_TextInfo textInfo = m_TextComponent.textInfo;
-        int characterCount = textInfo.characterCount;
+        int characterCount = 0;
+        if (textInfo!=null)
+        {
+            characterCount = textInfo.characterCount;
+        }
+        
 
         if (characterCount == 0) return;
 

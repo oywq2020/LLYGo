@@ -53,7 +53,6 @@ namespace SceneStateRegion
 
             //this operation is for synchronizing methods that must execute behind loading  
             GameLoop.Instance.Set(false);
-            Debug.Log("SceneEnd");
         }
 
         protected virtual void DefaultRegister()

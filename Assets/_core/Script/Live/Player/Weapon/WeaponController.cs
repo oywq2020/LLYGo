@@ -12,6 +12,7 @@ using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.UIElements;
+using Object = System.Object;
 
 
 public class WeaponController : MonoBehaviour
@@ -33,7 +34,7 @@ public class WeaponController : MonoBehaviour
     private int _index; //index for selecting weapon
     private bool _pause = false;
 
-    private Action _hit;
+    private Action<int> _hit;
     private Action _endAttack;
 
 
@@ -174,9 +175,10 @@ public class WeaponController : MonoBehaviour
         }
     }
 
-    public void Hit()
+    public void Hit(int attackIndex)
     {
-        _hit.Invoke();
+      
+        _hit.Invoke(attackIndex);
     }
 
     public void EndAttack()
