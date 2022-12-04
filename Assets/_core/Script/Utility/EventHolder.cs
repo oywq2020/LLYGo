@@ -32,6 +32,11 @@ namespace Script.Facade
         List<IUnRegister> UnRegisterList { get; }
     }
 
+    public class UnRegister : IUnRegisterList
+    {
+        public List<IUnRegister> UnRegisterList { get; } = new List<IUnRegister>();
+    }
+    
     /// <summary>
     /// Custom the UnRegister Method
     /// </summary>

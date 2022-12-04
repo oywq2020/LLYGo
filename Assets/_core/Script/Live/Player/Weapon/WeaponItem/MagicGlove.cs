@@ -8,7 +8,7 @@ namespace Player
 {
     public class MagicGlove : MonoBehaviour, IWeapon
     {
-        public float Cd { get; }
+        public float Cd { get; } = 0.833f;
 
         private IGameObjectPool _objectPool;
 
@@ -34,11 +34,12 @@ namespace Player
 
         public void ApproveAttack(Animator animator,Action duringAttack)
         {
-            if (Input.GetKeyDown(KeyCode.Mouse0))
+            if (Input.GetKey(KeyCode.Mouse0))
             {
                 if (_canAttack)
                 {
-                    StartHit(animator);
+                    _canAttack = false;
+                    StartHit(animator).Forget();
                 }
              
                 duringAttack.Invoke();
@@ -52,10 +53,12 @@ namespace Player
             _objectPool.Enqueue(_portalHolder);
         }
 
-        private async void StartHit(Animator animator)
+        private async UniTask StartHit(Animator animator)
         {
-            _canAttack = false;
+           
 
+            Debug.Log("Magic Impulse");
+            
             //start attack
             GameFacade.Instance.SendEvent<OnStartAttack>();
             
@@ -65,6 +68,8 @@ namespace Player
 
             //start attack
             GameFacade.Instance.SendEvent<OnEndAttack>();
+            
+            await UniTask.Delay(TimeSpan.FromSeconds(Cd * 1 / 4));
             _canAttack = true;
 
         }

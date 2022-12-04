@@ -25,7 +25,7 @@ namespace _core.Script.Bag
             GetComponent<CanvasGroup>().blocksRaycasts = false;
 
             //get current inventory for this bag
-            _bagItemList = CurrentPlayer.Instance.GetBag().itemList;
+            _bagItemList =GameFacade.Instance.GetBag().itemList;
             
            
         }

@@ -8,7 +8,7 @@ namespace _core.Scripts.Skill
     [RequireComponent(typeof(AudioSource))]
     public class ExplodeDamage : MonoBehaviour
     {
-        public float damage = 4;
+        public int damage = 4;
 
         //the scope of damage caused by this Explode
         public float damageScope = 16;

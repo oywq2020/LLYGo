@@ -35,7 +35,7 @@ namespace _core.Script.UI.Skill
 
             GameFacade.Instance.RegisterEvent<OnShortIndexChanged>(e =>
             {
-                var weaponSOBJ = CurrentPlayer.Instance.GetBag().itemList[e.Index];
+                var weaponSOBJ = GameFacade.Instance.GetBag().itemList[e.Index];
                 if (weaponSOBJ && weaponSOBJ.isEquip)
                 {
                     var skillImageSprite = GameFacade.Instance.GetInstance<IAssetFactory>()

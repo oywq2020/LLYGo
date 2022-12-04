@@ -12,18 +12,19 @@ using UnityEngine;
 /// </summary>
 public class SceneBoot : MonoBehaviour
 {
-    public string stateName ;
+    public string stateName;
+    public string accountName;
 
     private void Awake()
     {
-        if (stateName!="")
+        if (stateName != "")
         {
             //Boot different SceneState with given name by reflection 
-            Type type = Type.GetType("SceneStateRegion." + stateName+"State");
-            var instance = Activator.CreateInstance(type,GameLoop.Instance.Controller)as AbstractState;
-            GameLoop.Instance.Controller.SetState(instance,false,true).Forget();
+            Type type = Type.GetType("SceneStateRegion." + stateName + "State");
+            var instance = Activator.CreateInstance(type, GameLoop.Instance.Controller) as AbstractState;
+            GameLoop.Instance.Controller.SetState(instance, false, true).Forget();
         }
-        Debug.Log("boot awake");
+
+        GameFacade.Instance.SetPlayer(accountName);
     }
-    
 }

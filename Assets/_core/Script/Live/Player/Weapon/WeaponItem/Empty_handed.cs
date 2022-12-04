@@ -15,7 +15,7 @@ namespace Player
 
         public float cd;
 
-        public float damage;
+        public int damage;
         public Transform damageTransform;
         public float damageRadius;
 

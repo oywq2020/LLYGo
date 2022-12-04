@@ -69,7 +69,7 @@ public class WeaponController : MonoBehaviour
 
     void ShortIndexChanged(OnShortIndexChanged e)
     {
-        var currentItem = CurrentPlayer.Instance.GetBag().itemList[e.Index];
+        var currentItem = GameFacade.Instance.GetBag().itemList[e.Index];
 
         if (currentItem && currentItem.isEquip)
         {

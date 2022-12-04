@@ -1,4 +1,5 @@
 ﻿
+using Cysharp.Threading.Tasks;
 using SceneStateRegion;
 using Script.Event;
 using UnityEngine;
@@ -10,12 +11,12 @@ using UnityEngine.UI;
 
 public class LoadingState : AbstractState
 {
-    private string _targetScene;
+    private AbstractState _targetState;
     private AsyncOperationHandle<SceneInstance> _asyncOperationHandle;
     
-    public LoadingState(SceneStateController stateController,string targetScene) : base("Loading", stateController)
+    public LoadingState(SceneStateController stateController,AbstractState targetState) : base("Loading", stateController)
     {
-        _targetScene = targetScene;
+        _targetState = targetState;
     }
 
     private Image _loadBar;
@@ -23,6 +24,7 @@ public class LoadingState : AbstractState
     
     private float _waitTime = 0;
     private float _totallTime = 1.5f;
+    private bool _isLoadingCompleted = false;
 
     public override void StateStart()
     {
@@ -32,7 +34,7 @@ public class LoadingState : AbstractState
         
         
         //background loading 
-        _asyncOperationHandle = Addressables.LoadSceneAsync(_targetScene, LoadSceneMode.Single, false);
+        _asyncOperationHandle = Addressables.LoadSceneAsync(_targetState.SceneName, LoadSceneMode.Single, false);
         
         base.StateStart();
     }
@@ -62,12 +64,25 @@ public class LoadingState : AbstractState
             _waitTime += Time.deltaTime;
         }
         
-        
+        //if the scene load completed in background
         if ( _asyncOperationHandle.IsDone&&_waitTime>_totallTime)
         {
-            //entry game scene
-           _asyncOperationHandle.Result.ActivateAsync();
+            if (!_isLoadingCompleted)
+            {
+                //start activate thread 
+                ActivateTargetScene().Forget();
+                _isLoadingCompleted = true;
+            }
+          
         }
+    }
+
+  private async UniTask ActivateTargetScene()
+    {
+        //entry game scene
+        await UniTask.WaitUntil(() => _asyncOperationHandle.Result.ActivateAsync().isDone);
+        //truly set target state
+        StateController.SetState(_targetState, false, true).Forget();
     }
     
 }

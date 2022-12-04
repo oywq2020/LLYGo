@@ -19,17 +19,5 @@ public class UIMgr : MonoBehaviour
         
      
     }
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-           
-        }
-
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-          
-        }
-        
-    }
+   
 }

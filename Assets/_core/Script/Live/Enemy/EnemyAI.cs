@@ -27,13 +27,17 @@ namespace _core.Script.Enemy
         //enemy attribute
         public float viewRange = 10;
 
-        public float attack1Damage = 5;
+        public int attack1Damage = 5;
         public float attack1Range = 3;
       
-
+        
+        
         //long hand attack
-        public float attack2Damage = 10;
+        public int attack2Damage = 10;
         public float attack2Range = 6;
+
+        public int exp = 100;
+        
         //monitor
         [SerializeField] private State state;
         [SerializeField] private float destination;

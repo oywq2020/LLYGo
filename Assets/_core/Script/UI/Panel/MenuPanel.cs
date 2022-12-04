@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using SceneStateRegion;
@@ -9,19 +10,25 @@ using UnityEngine.UI;
 
 public class MenuPanel : AbstractUIPanel
 {
-    [SerializeField] private Button startGame;
-    [SerializeField] private Button endGame;
+    [SerializeField] private Button startGameBtn;
+    [SerializeField] private Button accountBtn;
+    [SerializeField] private Button endGameBtn;
 
     public override void OnOpen()
     {
-        Debug.Log("Menu scene Init");
-        startGame.onClick.AddListener(() =>
+        startGameBtn.onClick.AddListener(() =>
         {
-            Debug.Log("Start Game");
+         
             GameLoop.Instance.Controller.SetState(new MainState(GameLoop.Instance.Controller)).Forget();
         });
 
-        endGame.onClick.AddListener(() =>
+        accountBtn.onClick.AddListener(() =>
+        {
+            GameFacade.Instance.GetInstance<IUIkit>().OpenPanel("AccountInfoPanel");
+        });
+        
+        
+        endGameBtn.onClick.AddListener(() =>
         {
 #if UNITY_EDITOR
             EditorApplication.isPlaying = false;
@@ -33,5 +40,11 @@ public class MenuPanel : AbstractUIPanel
 
     protected override void Onclose()
     {
+        Debug.Log("Onclose");
+    }
+
+    private void OnDestroy()
+    {
+        Debug.Log("MenuPanelDestroy");
     }
 }

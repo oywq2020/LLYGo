@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Serialization;
@@ -141,6 +142,32 @@ public struct ManaManager
         Validate();
     }
 
+    public void SetMaxMana(int value)
+    {
+        maxManaPoints = value;
+        Validate();
+    }
+
+    public void SetCurrMana(int value)
+    {
+        currManaPoints = value;
+        Validate();
+    }
+
+    public void ConsumeMana(int value)
+    {
+        currManaPoints -= value;
+        Validate();
+    }
+
+    public void RestoreMana(int value)
+    {
+        currManaPoints += value;
+        Validate();
+    }
+
+   
+    
     public void Validate()
     {
         OnMaxManaUpdate.Invoke(this);

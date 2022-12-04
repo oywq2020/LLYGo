@@ -5,6 +5,7 @@ using _core.Script.FSM;
 using _core.Script.Live;
 using Cysharp.Threading.Tasks;
 using Script.Abstract;
+using Script.Event;
 using UnityEngine.AI;
 using Random = UnityEngine.Random;
 
@@ -31,6 +32,12 @@ namespace _core.Script.Enemy
             Debug.Log("Dead");
 
             _fsm.ChangeState(State.Dead);
+            
+            //trigger the dead event and pass this master exp
+            GameFacade.Instance.SendEvent(new OnMasterDead()
+            {
+                Exp = exp
+            });
         }
         #endregion
         #region StateMachine
@@ -110,10 +117,7 @@ namespace _core.Script.Enemy
                 .OnEnter(async () =>
                 {
                     _animator.SetBool("Attack1",true);
-                    
-                    Debug.Log("wait:"+GetClip("Attack1").length);
                     await UniTask.Delay(TimeSpan.FromSeconds(GetClip("Attack1").length+0.5f));
-
                     _animator.SetBool("Attack1",false);
                     _fsm.ChangeState(State.Idle);
                 })

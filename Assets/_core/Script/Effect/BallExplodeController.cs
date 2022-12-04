@@ -10,7 +10,7 @@ namespace _core.Script.Effect
     {
         [SerializeField] private float _damageScope = 16;
         [SerializeField] private float _explodeSpeed = 25;
-        [SerializeField] private float _damage = 100;
+        [SerializeField] private int _damage = 100;
         
         private SphereCollider _sphereCollider;
         private void Start()

@@ -13,8 +13,6 @@ using UnityEngine.UI;
 public class LoginController : AbstractUIPanel
 {
     
-    public GameFacade accountEntity;
-    
     private InputField _nameInput;
     private InputField _passwordInput;
     private Toggle _rememberToggle;
@@ -60,18 +58,11 @@ public class LoginController : AbstractUIPanel
             {
                 if (password == myPassword)
                 {
-                    //create a current player for whole game
-                    if (CurrentPlayer.Instance)
-                    {
-                        
-                    }
+                 
+                    //create the current player
+                    GameFacade.Instance.SetPlayer(myName);
                     
-                  //  var account = GameFacade.Instantiate(accountEntity);
-                    
-
-
                     GameLoop.Instance.Controller.SetState(new MenuState(GameLoop.Instance.Controller),false).Forget();
-
 
                     if (_isRememberPassword)
                     {

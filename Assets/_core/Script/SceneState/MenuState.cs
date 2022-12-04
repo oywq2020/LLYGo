@@ -12,21 +12,23 @@ namespace SceneStateRegion
 
         public override void StateStart()
         {
-            Debug.Log("MenuSceneStart");
             _uiKit =GameFacade.Instance.GetInstance<IUIkit>();
-            Debug.Log("Uikit Open");
             
             _uiKit.OpenPanel("MenuPanel");
             
-            Debug.Log("Panel Open");
-            
             base.StateStart();
+        }
+
+        public override void StateUpdate()
+        {
+         
+            
+            base.StateUpdate();
         }
 
         public override void StateEnd()
         {
             //todo something
-            
             
             base.StateEnd();
         }

@@ -47,6 +47,11 @@ namespace Script.UI
         }
 
 
+        protected void CloseSelf()
+        {
+            GameFacade.Instance.GetInstance<IUIkit>().ClosePanel(gameObject);
+        }
+        
         public abstract void OnOpen();
 
 

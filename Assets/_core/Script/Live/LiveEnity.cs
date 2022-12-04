@@ -8,21 +8,21 @@ namespace _core.Script.Live
     public abstract class LiveEntity:MonoBehaviour,IDamageable
     {
         [SerializeField]
-        protected float wholeHp;
+        protected int wholeHp;
 
         [SerializeField]
-        protected float currentHp;
+        protected int currentHp;
 
         protected bool _isDead = false;
 
-        private void Start()
+        protected virtual void Start()
         {
             currentHp = wholeHp;
             Init();
         }
 
 
-        public virtual void GetHit(float damage)
+        public virtual void GetHit(int damage)
         {
             currentHp -= damage;
             OnGetHit(damage);

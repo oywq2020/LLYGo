@@ -43,9 +43,7 @@ namespace Player
             GameFacade.Instance.RegisterEvent<OnStartAttack>(e => { Pause(); }).UnRegisterOnDestroy(gameObject);
             GameFacade.Instance.RegisterEvent<OnEndAttack>(e => { Continue(); }).UnRegisterOnDestroy(gameObject);
             GameFacade.Instance.RegisterEvent<OnCharacterInjured>(OnInjured).UnRegisterOnDestroy(gameObject);
-
-            //register character to GameFacede
-            GameFacade.Instance.SetCharacter(gameObject);
+            
         }
 
 

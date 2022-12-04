@@ -29,7 +29,7 @@ namespace Player
             get => cd;
         }
 
-        public float damage = 50;
+        public int damage = 50;
         private TriggerKit _triggerKit;
         private bool _canAttack = true;
 

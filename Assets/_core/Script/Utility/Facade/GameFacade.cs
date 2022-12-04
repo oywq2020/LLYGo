@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using PlayerRegion;
 using Script.Abstract;
 using Script.AssetFactory;
 using Script.Facade;
@@ -16,6 +17,15 @@ public class GameFacade : MonoBehaviour
     private IEventHolder _eventHolder;
 
     private GameObject _characterHolder;
+
+    private string _playerAccount;
+
+    //the player in current case
+    private CurrentPlayer _player;
+    
+    
+    
+    
 
     // Start is called before the first frame update
     private void Awake()
@@ -111,14 +121,32 @@ public class GameFacade : MonoBehaviour
 
     #region Player
 
-   public void SetCharacter(GameObject character)
+
+    public void SetPlayer(string account)
+    {
+        //Set player 
+        Debug.Log("Create Player");
+        _player = new CurrentPlayer(account);
+        
+        Debug.Log("Account:"+_player.GetAccount());
+    }
+    
+    //get bag
+    public InventoryScrObj GetBag()
+    {
+        return _player.GetBag();
+    }
+
+    //get account
+    public string GetAccount()
+    {
+        return _player.GetAccount();
+    }
+    
+   public void UpdateAccount(string account)
    {
-       _characterHolder = character;
+       _player.UpdateAccount(account);
    }
 
-   public GameObject GetCurrentCharacter()
-   {
-       return _characterHolder;
-   }
-    #endregion
+   #endregion
 }
