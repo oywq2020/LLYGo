@@ -23,10 +23,6 @@ public class GameFacade : MonoBehaviour
     //the player in current case
     private CurrentPlayer _player;
     
-    
-    
-    
-
     // Start is called before the first frame update
     private void Awake()
     {
