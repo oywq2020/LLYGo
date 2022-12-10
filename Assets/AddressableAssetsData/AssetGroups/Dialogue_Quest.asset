@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Dialogue_Quest
+  m_EditorClassIdentifier: 
+  m_GroupName: Dialogue_Quest
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 47dccc961ba88134f83391ce86749c14
+  m_SerializeEntries:
+  - m_GUID: 4a51b2022fefe1d41b49c02c5becae91
+    m_Address: Actors
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c985209b94db8a147860ef883042875d
+    m_Address: Quests
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1a9e68e4074eda341ad08a3b56159833
+    m_Address: Prefabs
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 6d8b90ca85f764340b128f5c598e71aa, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4fe426a93d4ec4a4ca52b2db87a1fc89, type: 2}
+    - {fileID: 11400000, guid: 669620bcfcd58f7438638f954dab40c5, type: 2}
