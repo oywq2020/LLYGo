@@ -3,6 +3,7 @@ using System.Collections;
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using Script.Event;
+using Script.Event.CharacterMove;
 using Script.Facade;
 using UnityEngine;
 
@@ -40,8 +41,18 @@ namespace Player
             _viewCamera = Camera.main;
 
             //registering
-            GameFacade.Instance.RegisterEvent<OnStartAttack>(e => { Pause(); }).UnRegisterOnDestroy(gameObject);
-            GameFacade.Instance.RegisterEvent<OnEndAttack>(e => { Continue(); }).UnRegisterOnDestroy(gameObject);
+           
+            GameFacade.Instance.RegisterEvent<ChangeMoveState>(e =>
+            {
+                if (e.IsCanMove)
+                {
+                    Continue();
+                }
+                else
+                {
+                    Pause();
+                }
+            }).UnRegisterOnDestroy(gameObject);
             GameFacade.Instance.RegisterEvent<OnCharacterInjured>(OnInjured).UnRegisterOnDestroy(gameObject);
             
         }
@@ -59,6 +70,7 @@ namespace Player
         void Pause()
         {
             _updatePause = true;
+            _animator.SetFloat("Speed", 0);
         }
 
         void Continue()
@@ -80,9 +92,9 @@ namespace Player
 
             UniTask.RunOnThreadPool(async () =>
             {
-                Pause();
+                _updatePause = true;
                 await UniTask.Delay(TimeSpan.FromSeconds(e.Duration-0.2));
-                Continue();
+                _updatePause = false;
             },true,_cancelSource.Token);
         }
 

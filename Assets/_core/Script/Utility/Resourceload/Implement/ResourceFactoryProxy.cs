@@ -65,14 +65,12 @@ namespace Script.AssetFactory
                 //note: you do not need put it into pool cause the pool is for disabled GameObject
                 gameObject = _resourceFactory.InstantiateGameObject(key,parent);
                 
+                //naming this game object by its key
+                gameObject.name = key;
+                
                 //record this asset key
                 _loadedAssetKeys.Add(key);
             }
-            
-            //naming this game object
-            gameObject.name = key;
-            
-          
             //initiate this gameObject 
 
             if ( gameObject.GetComponent<IPoolable>()!=null)

@@ -21,9 +21,9 @@ namespace PlayerRegion
         {
             //get the current acount
             _account = account;
-            
+            Debug.Log("Load BaG");
             //load the bag belonged the account
-            _bag =  Addressables.LoadAssetAsync<InventoryScrObj>($"Bag0").WaitForCompletion();
+            _bag =  Resources.Load<InventoryScrObj>("Bag/Inventory/Bag0");
         }
 
 

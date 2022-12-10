@@ -124,7 +124,6 @@ public class GameFacade : MonoBehaviour
         Debug.Log("Create Player");
         _player = new CurrentPlayer(account);
         
-        Debug.Log("Account:"+_player.GetAccount());
     }
     
     //get bag

@@ -374,6 +374,11 @@ PrefabInstance:
       propertyPath: stateName
       value: Start
       objectReference: {fileID: 0}
+    - target: {fileID: 4120772371088921592, guid: 7ec135f9ed66eaf499b606ec01d858ae,
+        type: 3}
+      propertyPath: IsStartScence
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4120772371088921593, guid: 7ec135f9ed66eaf499b606ec01d858ae,
         type: 3}
       propertyPath: m_RootOrder

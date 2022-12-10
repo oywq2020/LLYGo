@@ -13,15 +13,18 @@ namespace _core.Script.UI.Interface
 
         public override void OnOpen()
         {
-            GameFacade.Instance.RegisterEvent<OnCharacterInjured>(UpdateBleedSlider);
+            GameFacade.Instance.RegisterEvent<OnCharacterInjured>(UpdateBleedSlider)
+                .UnRegisterOnDestroy(gameObject);
         }
 
-
+        protected override void Onclose()
+        {
+            
+        }
+        
         //Start function for simulation
         private void Start()
         {
-            
-            
             //register Event 
             GameFacade.Instance.RegisterEvent<OnCharacterInjured>(UpdateBleedSlider)
                 .UnRegisterOnDestroy(gameObject);
@@ -35,19 +38,19 @@ namespace _core.Script.UI.Interface
 
         private void UpdateManaSlider(OnManaUpdate e)
         {
-            if (e.Delta>=1)
+            if (e.Delta >= 1)
             {
                 //Restore the mana of display
                 statsManager.manaManager.RestoreMana(e.Delta);
             }
 
-            if (e.Delta<=-1)
+            if (e.Delta <= -1)
             {
                 //Consume the mana of display
                 statsManager.manaManager.ConsumeMana(e.Delta);
             }
         }
-        
+
         private void UpdateBleedSlider(OnCharacterInjured e)
         {
             //update the health of KHBar
@@ -74,10 +77,6 @@ namespace _core.Script.UI.Interface
             statsManager.healthManager.SetMaxHealth(550 + 35 * statsManager.driveManager.CurrCharge);
             statsManager.manaManager.SetMaxMana(80 + 16 * statsManager.driveManager.CurrCharge);
         }
-
-        protected override void Onclose()
-        {
-            GameFacade.Instance?.UnRegisterEvent<OnCharacterInjured>(UpdateBleedSlider);
-        }
+        
     }
 }

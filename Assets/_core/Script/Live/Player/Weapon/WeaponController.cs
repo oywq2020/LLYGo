@@ -6,9 +6,11 @@ using Cysharp.Threading.Tasks;
 using Player;
 using PlayerRegion;
 using Script.Event;
+using Script.Event.CharacterMove;
 using Script.Facade;
 using Script.UI;
-using UnityEditor.Animations;
+//using UnityEditor.Animations;
+using UnityEngine.Animations;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.UIElements;
@@ -18,18 +20,12 @@ using Object = System.Object;
 public class WeaponController : MonoBehaviour
 {
     public Transform playerPalm;
-
     private Animator _animator;
-
     //play attack for specified weapon
     private IWeapon _weapon;
     private IAssetFactory _assetFactory;
     private GameObject _weaponHolder;
-    private AnimatorController _aniCtrlHolder;
-
     private GameObject _lastWeapon;
-
-    //private struct variable
     private bool _canAttack = true;
     private int _index; //index for selecting weapon
     private bool _pause = false;
@@ -45,9 +41,24 @@ public class WeaponController : MonoBehaviour
         _assetFactory = GameFacade.Instance.GetInstance<IAssetFactory>();
 
         //register event
-        GameFacade.Instance.RegisterEvent<OnShortIndexChanged>(ShortIndexChanged).UnRegisterOnDestroy(gameObject);
-        GameFacade.Instance.RegisterEvent<OnMouseEntryGUI>(Pause).UnRegisterOnDestroy(gameObject);
-        GameFacade.Instance.RegisterEvent<OnMouseExitGUI>(Continue).UnRegisterOnDestroy(gameObject);
+        GameFacade.Instance.RegisterEvent<OnShortIndexChanged>(ShortIndexChanged)
+            .UnRegisterOnDestroy(gameObject);
+
+        GameFacade.Instance.RegisterEvent<ChangeWeaponState>(e =>
+        {
+            if (!e.IsCanAttack)
+            {
+                Pause();
+            }
+            else
+            {
+                Continue();
+            }
+        }).UnRegisterOnDestroy(gameObject);
+
+        
+        //init short bag index
+        ShortIndexChanged(new OnShortIndexChanged(){Index = 0});
     }
 
     private void FixedUpdate()
@@ -84,26 +95,26 @@ public class WeaponController : MonoBehaviour
             //switch animator controller
             if ((currentItem as WeaponItem).aniCtrl.Asset)
             {
-                _animator.runtimeAnimatorController = (currentItem as WeaponItem).aniCtrl.Asset as AnimatorController;
+                _animator.runtimeAnimatorController = (currentItem as WeaponItem).aniCtrl.Asset as RuntimeAnimatorController;
             }
             else
             {
                 _animator.runtimeAnimatorController = (currentItem as WeaponItem).aniCtrl
-                    .LoadAssetAsync<AnimatorController>().WaitForCompletion();
+                    .LoadAssetAsync<RuntimeAnimatorController>().WaitForCompletion();
             }
 
             //release other item before
-            if (_lastWeapon&&!_lastWeapon.Equals(_weaponHolder))
+            if (_lastWeapon && !_lastWeapon.Equals(_weaponHolder))
             {
-               //exist weapon switch then release lastWeapon
-               Addressables.Release(_lastWeapon);
+                //exist weapon switch then release lastWeapon
+                Addressables.Release(_lastWeapon);
             }
 
             _lastWeapon = _weaponHolder;
         }
         else
         {
-            _animator.runtimeAnimatorController = _assetFactory.LoadAsset<AnimatorController>("EmptyHanded");
+            _animator.runtimeAnimatorController = _assetFactory.LoadAsset<RuntimeAnimatorController>("EmptyHanded");
             if (playerPalm.childCount > 1)
             {
                 Addressables.Release(_weaponHolder);
@@ -134,12 +145,12 @@ public class WeaponController : MonoBehaviour
     }
 
 
-    void Pause(OnMouseEntryGUI e)
+    void Pause()
     {
         _pause = true;
     }
 
-    void Continue(OnMouseExitGUI e)
+    void Continue()
     {
         _pause = false;
     }
@@ -177,7 +188,6 @@ public class WeaponController : MonoBehaviour
 
     public void Hit(int attackIndex)
     {
-      
         _hit.Invoke(attackIndex);
     }
 

@@ -23,8 +23,9 @@ namespace _core.Script.Enemy
             _remainder = transform.Find("Remainder").GetComponent<Image>();
         }
 
-        public async void UpdateBloodBar(float percent)
+        public void UpdateBloodBar(float percent)
         {
+            Debug.Log("Percent: "+percent);
             //Update BloodBar 
             _bloodBar.fillAmount = percent;
 

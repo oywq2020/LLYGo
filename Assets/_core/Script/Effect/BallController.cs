@@ -27,7 +27,7 @@ namespace _core.Script.Effect
             if (timer>duration)
             {
                 //instantiate GameObject
-                var dequeue = GameFacade.Instance.GetInstance<IGameObjectPool>().Dequeue(_explodePref.editorAsset.name);
+                var dequeue = GameFacade.Instance.GetInstance<IGameObjectPool>().Dequeue(_explodePref.RuntimeKey.ToString());
                 dequeue.transform.position = transform.position;
                 
                 GameFacade.Instance.GetInstance<IGameObjectPool>().Enqueue(gameObject);
@@ -44,7 +44,7 @@ namespace _core.Script.Effect
                 
                 //instantiate explode prefab
                 
-                var dequeue = GameFacade.Instance.GetInstance<IGameObjectPool>().Dequeue(_explodePref.editorAsset.name);
+                var dequeue = GameFacade.Instance.GetInstance<IGameObjectPool>().Dequeue(_explodePref.RuntimeKey.ToString());
                 dequeue.transform.position = transform.position;
                 
                 //enqueue this ball

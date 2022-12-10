@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace _core.Script.Effect
 {
-    public class BallExplodeController : MonoBehaviour
+    public class BallExplodeController : MonoBehaviour,IPoolable
     {
         [SerializeField] private float _damageScope = 16;
         [SerializeField] private float _explodeSpeed = 25;
@@ -16,8 +16,6 @@ namespace _core.Script.Effect
         private void Start()
         {
             _sphereCollider = GetComponent<SphereCollider>();
-
-            Explosion();
         }
 
         
@@ -55,10 +53,23 @@ namespace _core.Script.Effect
                     //awaiting some seconds for displaying this effect of explosion
                     await UniTask.Delay(TimeSpan.FromSeconds(2f));
                     //enqueue this explode
+                    Debug.Log("EnqueueExplan");
                     GameFacade.Instance.GetInstance<IGameObjectPool>().Enqueue(gameObject);
                     break;
                 }
             }
+        }
+
+        public void Disable()
+        {
+           gameObject.SetActive(false);
+        }
+
+        public void Init()
+        {
+            gameObject.SetActive(true);
+            Explosion();
+         
         }
     }
 }

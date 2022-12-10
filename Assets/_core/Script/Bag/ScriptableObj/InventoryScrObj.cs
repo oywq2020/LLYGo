@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 [CreateAssetMenu(fileName = "New Inventory",menuName = "Inventory/New Inventory")]
 public class InventoryScrObj : ScriptableObject
 {
+   
    //bag list
    public List<AbstractItemScrObj> itemList = new List<AbstractItemScrObj>();
 

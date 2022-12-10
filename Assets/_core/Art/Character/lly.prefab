@@ -3456,7 +3456,6 @@ GameObject:
   - component: {fileID: 500914940892519791}
   - component: {fileID: 500914940892519790}
   - component: {fileID: 500914940892519785}
-  - component: {fileID: 500914940892519784}
   - component: {fileID: 4464496312323690372}
   - component: {fileID: 1261138917}
   - component: {fileID: 183457237}
@@ -3543,38 +3542,6 @@ MonoBehaviour:
   runSpeed: 6
   jumpSpeed: 4
   gravity: 10
---- !u!114 &500914940892519784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4464496312323690375}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fff0960ef4ea6e04eac66b4a7fd2189d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RigLayers:
-  - rig: {fileID: 734916517509009708}
-    active: 1
-  m_Effectors:
-  - m_Transform: {fileID: 3545593411121906481}
-    m_Style:
-      shape: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
-      color: {r: 1, g: 0, b: 0, a: 0.5}
-      size: 0.1
-      position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: 0, z: 0}
-    m_Visible: 1
-  - m_Transform: {fileID: 3545593411386747407}
-    m_Style:
-      shape: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-      color: {r: 1, g: 0, b: 0, a: 0.5}
-      size: 0.1
-      position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: 0, z: 0}
-    m_Visible: 1
 --- !u!114 &4464496312323690372
 MonoBehaviour:
   m_ObjectHideFlags: 0

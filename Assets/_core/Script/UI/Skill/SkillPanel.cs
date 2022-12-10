@@ -39,7 +39,7 @@ namespace _core.Script.UI.Skill
                 if (weaponSOBJ && weaponSOBJ.isEquip)
                 {
                     var skillImageSprite = GameFacade.Instance.GetInstance<IAssetFactory>()
-                        .LoadAsset<Sprite>((weaponSOBJ as WeaponItem).skillSprite.editorAsset.name);
+                        .LoadAsset<Sprite>((weaponSOBJ as WeaponItem).skillSprite.RuntimeKey.ToString());
                     
                     //assign the different sprite
                     _skillImage.sprite = skillImageSprite;
@@ -48,6 +48,9 @@ namespace _core.Script.UI.Skill
                 else
                 {
                     //empty-handed case
+
+                    _skillImage.sprite = null;
+                    _skillImageMask.sprite = null;
                 }
             }).UnRegisterOnDestroy(gameObject);
         }

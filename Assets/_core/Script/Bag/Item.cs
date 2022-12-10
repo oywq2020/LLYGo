@@ -2,6 +2,7 @@
 using PlayerRegion;
 using Script.Event;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 
 /// <summary>
@@ -9,7 +10,7 @@ using UnityEngine;
 /// </summary>
 public class Item : MonoBehaviour
 {
-    public AbstractItemScrObj thisAbstractItemScrObj;
+    public AbstractItemScrObj  thisAbstractItemScrObj;
 
     private InventoryScrObj _currentPlayerBag;
 

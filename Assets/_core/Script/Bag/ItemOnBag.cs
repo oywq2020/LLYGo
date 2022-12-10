@@ -4,6 +4,7 @@ using _core.Script.Bag.ScriptableObj.Item;
 using PlayerRegion;
 using Script.Event;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.EventSystems;
 
 namespace _core.Script.Bag
@@ -63,7 +64,9 @@ namespace _core.Script.Bag
                     .GetIndex();
 
                 Debug.Log("Swap Index：" + index);
-                
+
+                var abstractItemScrObj = _bagItemList[index];
+
                 if (!_bagItemList[index].isEquip &&
                     !_bagItemList[_originalParent.GetComponent<Index>().GetIndex()].isEquip &&
                     _bagItemList[index].itemName ==

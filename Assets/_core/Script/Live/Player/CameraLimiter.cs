@@ -1,6 +1,7 @@
 ﻿using System;
 using Cinemachine;
 using Script.Event;
+using Script.Event.Camera;
 using Script.Facade;
 using UnityEngine;
 
@@ -21,21 +22,22 @@ namespace _core.Script.Player
             _originY = _cinemachine.m_YAxis.m_MaxSpeed;
 
             //register event
-            GameFacade.Instance.RegisterEvent<OnMouseEntryGUI>(StartLimiter).UnRegisterOnDestroy(gameObject);
-            GameFacade.Instance.RegisterEvent<OnMouseExitGUI>(StopLimiter).UnRegisterOnDestroy(gameObject);
+            GameFacade.Instance.RegisterEvent<ChangeCameraState>(ChangeCameraState).UnRegisterOnDestroy(gameObject);
         }
 
 
-        void StartLimiter(OnMouseEntryGUI e)
+        void ChangeCameraState(ChangeCameraState e)
         {
-            _cinemachine.m_XAxis.m_MaxSpeed = 0;
-            _cinemachine.m_YAxis.m_MaxSpeed = 0;
-        }
-
-        void StopLimiter(OnMouseExitGUI e)
-        {
-            _cinemachine.m_XAxis.m_MaxSpeed = _originX;
-            _cinemachine.m_YAxis.m_MaxSpeed = _originY;
+            if (e.IsPause)
+            {
+                _cinemachine.m_XAxis.m_MaxSpeed = 0;
+                _cinemachine.m_YAxis.m_MaxSpeed = 0;
+            }
+            else
+            {
+                _cinemachine.m_XAxis.m_MaxSpeed = _originX;
+                _cinemachine.m_YAxis.m_MaxSpeed = _originY;
+            }
         }
     }
 }

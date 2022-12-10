@@ -1,11 +1,9 @@
-﻿using System;
+﻿
 using Cysharp.Threading.Tasks;
-using DG.Tweening;
-using SceneStateRegion;
-using Script.Event;
+
 using Script.Facade;
 using Script.UI;
-using UnityEditorInternal;
+
 using UnityEngine;
 
 namespace SceneStateRegion

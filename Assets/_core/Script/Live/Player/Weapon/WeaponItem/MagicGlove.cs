@@ -55,9 +55,6 @@ namespace Player
 
         private async UniTask StartHit(Animator animator)
         {
-           
-
-            Debug.Log("Magic Impulse");
             
             //start attack
             GameFacade.Instance.SendEvent<OnStartAttack>();

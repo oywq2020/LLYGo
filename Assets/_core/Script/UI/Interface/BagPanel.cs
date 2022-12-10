@@ -40,11 +40,11 @@ public class BagPanel : AbstractUIPanel, IPointerEnterHandler, IPointerExitHandl
     {
         for (int i = startLimit; i < _currentPlayerBag.itemList.Count; i++)
         {
-            //prevent index out of this bag grid and itemList is null
-            if (i > endLimit || !_currentPlayerBag.itemList[i]) continue;
-         
             var item = _currentPlayerBag.itemList[i];
 
+            //prevent index out of this bag grid and itemList is null
+            if (i > endLimit || !item) continue;
+            
             if (transform.GetChild(i - startLimit).transform.childCount != 0)
             {
                 if (!item.isEquip)

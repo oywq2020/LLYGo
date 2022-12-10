@@ -1,8 +1,4 @@
-﻿using System;
-using Script.UI;
-using UnityEditor.Experimental.GraphView;
-using UnityEngine;
-
+﻿using UnityEngine;
 namespace _core.Script.Live
 {
     public abstract class LiveEntity:MonoBehaviour,IDamageable
