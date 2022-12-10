@@ -1,10 +1,9 @@
-﻿using System;
-using _core.Script.Live;
+﻿using _core.Script.Live;
 using UnityEngine;
 
-namespace _core.Script.Enemy
+namespace _core.Script.Enemy.BigMonster
 {
-    public partial class EnemyAI
+    public class Ghost : EnemyAI
     {
         public Transform attack1Transform;
 
@@ -35,8 +34,6 @@ namespace _core.Script.Enemy
         {
             attack2GB.GetComponent<TriggerKit>().StopListening();
         }
-        
-        
-        
+
     }
 }

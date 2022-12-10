@@ -68,7 +68,7 @@ namespace _core.Script.FSM
     public class FSM<T>
     {
         //store customers' states 
-        public Dictionary<T, IState> States = new Dictionary<T, IState>();
+        private Dictionary<T, IState> States = new Dictionary<T, IState>();
 
         public Action<T> OnStateChanged;
 

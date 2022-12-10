@@ -1,8 +1,5 @@
 ﻿using System;
-using StateAI;
 using UnityEngine;
-using _core.Script.FSM;
-using _core.Script.Live;
 using Cysharp.Threading.Tasks;
 using Script.Abstract;
 using Script.Event;
@@ -15,15 +12,16 @@ namespace _core.Script.Enemy
     [RequireComponent(typeof(NavMeshAgent))]
     public partial class EnemyAI
     {
+        
         #region LifeEvent
 
         protected override void OnGetHit(float damage)
         {
             if (!_isDead)
             {
-                Debug.Log("get hit");
-                transform.Find("BloodBarCanvas").GetComponent<BloodBarController>().UpdateBloodBar((float)currentHp / (float)wholeHp);
                 _fsm.ChangeState(State.GetHit);
+                transform.Find("BloodBarCanvas").GetComponent<BloodBarController>().UpdateBloodBar((float)currentHp / (float)wholeHp);
+              
             }
         }
 
@@ -67,28 +65,70 @@ namespace _core.Script.Enemy
         //Walk state
         private void Walk()
         {
+            
+            
+            
             _fsm.State(State.Walk)
                 .OnEnter(() =>
                 {
+                    _agent.enabled = true;
                     _agent.isStopped = false;
-                    _animator.SetBool("Walk",true);
+                 
                 })
                 .OnFixedUpdate(() =>
                 {
-                    //the second attack way
-                    if (destination <= attack2Range && destination > attack1Range)
+
+                    switch (attackMode)
                     {
-                        //entry attack range
-                        _fsm.ChangeState(State.Attack2);
-                        return;
-                    }
-                    else if (destination <= attack1Range)
-                    {
-                        //entry attack range
-                        _fsm.ChangeState(State.Attack1);
-                        return;
+                        case AttackMode.DistanceFirst:
+                           
+                            //the second attack way
+                            if (destination <= attack2Range && destination > attack1Range)
+                            {
+                                //entry attack range
+                                _fsm.ChangeState(State.Attack2);
+                                return;
+                            }
+                            else if (destination <= attack1Range)
+                            {
+                                //entry attack range
+                                _fsm.ChangeState(State.Attack1);
+                                return;
+                            }
+                            
+                            break;
+                        case AttackMode.Random:
+                            //the attack1 is common attack and attack2 is special attack in this case
+                            if (randomSeed>3)
+                            {
+                                if (destination<=attack2Range)
+                                {
+                                    //the 70% is common attack 
+                                    _fsm.ChangeState(State.Attack2);
+                       
+                                    //reset the random seed
+                                    randomSeed = Random.Range(0, 9);
+                                    return;
+                                }
+                            }
+                            else
+                            {
+                                if (destination<=attack1Range)
+                                {
+                                    _fsm.ChangeState(State.Attack1);
+                       
+                                    //reset the random seed
+                                    randomSeed = Random.Range(0, 9);
+                                    return;
+                                }
+                  
+                            }
+                            break;
                     }
 
+                    Debug.Log("Walk");
+                    
+                    //the player is out of the range of Enemy's view 
                     if (destination > viewRange)
                     {
                         //player out of the view Range
@@ -97,12 +137,18 @@ namespace _core.Script.Enemy
                     }
                     
                     //track player
-                    _agent.SetDestination(_playerTransForm.position);
+                    if (_agent.isActiveAndEnabled)
+                    {
+                        _agent.SetDestination(_playerTransForm.position);
+                    }
+                    //set work to ture
+                    _animator.SetBool("Walk",true);
                     
                 }).OnExit(() =>
                 {
                     _agent.isStopped = true;
                     _animator.SetBool("Walk",false);
+                    _agent.enabled = false;
                 });
         }
 

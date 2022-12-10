@@ -223,6 +223,18 @@ namespace MysqlUtility
             }
         }
 
+
+
+        private static string CreateCharacter(string account)
+        {
+            
+            
+            
+            return default;
+            
+        }
+        
+
         private static void CloseDataBase()
         {
             _mySqlConnection.Close();

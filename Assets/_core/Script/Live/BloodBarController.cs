@@ -15,14 +15,13 @@ namespace _core.Script.Enemy
         private Image _bloodBar;
         private Image _remainder;
 
-        private async void Start()
+        private void Start()
         {
             _playerTransform = Camera.main.transform;
 
             _bloodBar = transform.Find("BloodBar").GetComponent<Image>();
             _remainder = transform.Find("Remainder").GetComponent<Image>();
         }
-
         public void UpdateBloodBar(float percent)
         {
             Debug.Log("Percent: "+percent);
@@ -35,7 +34,7 @@ namespace _core.Script.Enemy
                 _bloodBar.color = Color.yellow;
 
                 //convert color and make it more transparent
-                _remainder.color = Color.yellow;
+                _remainder.color = Color.red;
                 _remainder.color = _remainder.color - new Color(0, 0, 0, 0.4f);
             }
             else if (percent <= 0.3)
@@ -47,29 +46,26 @@ namespace _core.Script.Enemy
                 _remainder.color = Color.red;
                 _remainder.color = _remainder.color - new Color(0, 0, 0, 0.4f);
             }
+            else
+            {
+                //convert color and make it more transparent
+                _remainder.color = Color.red;
+                _remainder.color = _remainder.color - new Color(0, 0, 0, 0.4f);
+            }
 
             //Update Remainder smoothly
             // await UpdateRemainder(percent);
-            DOTween.To(() => _remainder.fillAmount, x => _remainder.fillAmount = x, percent, 0.7f)
-                .SetEase(Ease.Flash);
+          DOTween.To(() => _remainder.fillAmount, x => _remainder.fillAmount = x, percent, 0.7f)
+                .SetEase(Ease.Flash).onComplete+= () =>
+          {
+              if (_remainder.fillAmount==0)
+              {
+                  //this blood slider is to zero than disappear it 
+                  gameObject.SetActive(false);
+              }
+          };
         }
-
-        private async UniTask UpdateRemainder(float percent)
-        {
-            while (true)
-            {
-                await UniTask.Yield();
-                _remainder.fillAmount = Mathf.Lerp(
-                    _remainder.fillAmount, percent, Time.deltaTime / 10);
-
-                if (_remainder.fillAmount > percent - 0.01)
-                {
-                    _remainder.fillAmount = percent;
-                    break;
-                }
-            }
-        }
-
+        
         void OnBecameVisible()
         {
             _isInVisualField = true;

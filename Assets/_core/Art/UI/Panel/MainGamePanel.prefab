@@ -871,6 +871,11 @@ PrefabInstance:
       propertyPath: m_FillAmount
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3133208582976438187, guid: 4ce755707c9eed44a91c2b303008e8cf,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 3133208582991682400, guid: 4ce755707c9eed44a91c2b303008e8cf,
         type: 3}
       propertyPath: xSkew
@@ -936,10 +941,20 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3133208583366979080, guid: 4ce755707c9eed44a91c2b303008e8cf,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 3133208583366979081, guid: 4ce755707c9eed44a91c2b303008e8cf,
         type: 3}
       propertyPath: m_FillAmount
-      value: 0.455
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133208583787786607, guid: 4ce755707c9eed44a91c2b303008e8cf,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 135
       objectReference: {fileID: 0}
     - target: {fileID: 3133208583999928865, guid: 4ce755707c9eed44a91c2b303008e8cf,
         type: 3}

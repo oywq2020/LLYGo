@@ -1,5 +1,4 @@
-﻿using System;
-using StateAI;
+﻿
 using UnityEngine;
 using _core.Script.FSM;
 using _core.Script.Live;
@@ -20,6 +19,12 @@ namespace _core.Script.Enemy
         Dead
     }
 
+    public enum AttackMode
+    {
+        DistanceFirst,
+        Random
+    }
+
     [RequireComponent(typeof(Animator))]
     [RequireComponent(typeof(NavMeshAgent))]
     public partial class EnemyAI : LiveEntity, IPoolable
@@ -27,10 +32,13 @@ namespace _core.Script.Enemy
         //enemy attribute
         public float viewRange = 10;
 
+        [Header("AttackMode")]
+        public AttackMode attackMode = AttackMode.DistanceFirst;
+        
+        
+       
         public int attack1Damage = 5;
         public float attack1Range = 3;
-      
-        
         
         //long hand attack
         public int attack2Damage = 10;
@@ -47,6 +55,8 @@ namespace _core.Script.Enemy
 
         private FSM<State> _fsm = new FSM<State>();
         private Transform _playerTransForm;
+
+        private int randomSeed;
         
         public void Disable()
         {
@@ -57,6 +67,8 @@ namespace _core.Script.Enemy
         {
             Init();
             gameObject.SetActive(true);
+
+            randomSeed = Random.Range(0, 9);
         }
 
         protected override void Init()
